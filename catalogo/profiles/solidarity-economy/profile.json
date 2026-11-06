@@ -1,0 +1,355 @@
+{
+  "id": "solidarity-economy",
+  "label": "Solidarity economy",
+  "description": "Producers, distributors, GAS and networks, with sector taxonomy and links to Solidaros questionnaires.",
+  "key": "tax_code",
+  "categories": [
+    "Food and drink",
+    "Personal care",
+    "Home care",
+    "Other"
+  ],
+  "types": {
+    "producer": {
+      "label": "Producers",
+      "icon": "las la-carrot",
+      "presets": [
+        {
+          "name": "title",
+          "required": true
+        },
+        {
+          "name": "description"
+        },
+        {
+          "name": "tag"
+        },
+        {
+          "name": "category",
+          "required": true
+        },
+        {
+          "name": "location",
+          "group": "Location"
+        },
+        {
+          "name": "address",
+          "group": "Location"
+        },
+        {
+          "name": "map",
+          "group": "Location"
+        },
+        {
+          "name": "email",
+          "group": "Contact"
+        },
+        {
+          "name": "phone",
+          "group": "Contact"
+        },
+        {
+          "name": "website",
+          "group": "Contact"
+        },
+        {
+          "name": "image_upload",
+          "group": "Media",
+          "label": "Cover image / photos"
+        }
+      ],
+      "fields": [
+        {
+          "key": "producer_type",
+          "type": "select",
+          "label": "Producer type",
+          "group": "Details",
+          "options": {
+            "goods": "Goods producer",
+            "services": "Services producer"
+          }
+        }
+      ],
+      "filters": [
+        "category",
+        "location",
+        "producer_type",
+        "legal_form"
+      ]
+    },
+    "gas": {
+      "label": "GAS",
+      "icon": "las la-shopping-basket",
+      "presets": [
+        {
+          "name": "title",
+          "required": true
+        },
+        {
+          "name": "description"
+        },
+        {
+          "name": "tag"
+        },
+        {
+          "name": "category",
+          "required": true
+        },
+        {
+          "name": "location",
+          "group": "Location"
+        },
+        {
+          "name": "address",
+          "group": "Location"
+        },
+        {
+          "name": "map",
+          "group": "Location"
+        },
+        {
+          "name": "email",
+          "group": "Contact"
+        },
+        {
+          "name": "phone",
+          "group": "Contact"
+        },
+        {
+          "name": "website",
+          "group": "Contact"
+        },
+        {
+          "name": "image_upload",
+          "group": "Media",
+          "label": "Cover image / photos"
+        }
+      ],
+      "fields": [
+        {
+          "key": "members",
+          "type": "number",
+          "label": "Number of members",
+          "group": "Details"
+        },
+        {
+          "key": "order_frequency",
+          "type": "select",
+          "label": "Order frequency",
+          "group": "Details",
+          "options": {
+            "weekly": "Weekly",
+            "biweekly": "Every two weeks",
+            "monthly": "Monthly",
+            "variable": "Variable"
+          }
+        }
+      ],
+      "filters": [
+        "location",
+        "order_frequency",
+        "legal_form"
+      ]
+    },
+    "network": {
+      "label": "Networks",
+      "icon": "las la-project-diagram",
+      "presets": [
+        {
+          "name": "title",
+          "required": true
+        },
+        {
+          "name": "description"
+        },
+        {
+          "name": "tag"
+        },
+        {
+          "name": "category",
+          "required": true
+        },
+        {
+          "name": "location",
+          "group": "Location"
+        },
+        {
+          "name": "address",
+          "group": "Location"
+        },
+        {
+          "name": "map",
+          "group": "Location"
+        },
+        {
+          "name": "email",
+          "group": "Contact"
+        },
+        {
+          "name": "phone",
+          "group": "Contact"
+        },
+        {
+          "name": "website",
+          "group": "Contact"
+        },
+        {
+          "name": "image_upload",
+          "group": "Media",
+          "label": "Cover image / photos"
+        }
+      ],
+      "fields": [
+        {
+          "key": "network_type",
+          "type": "select",
+          "label": "Network type",
+          "group": "Details",
+          "options": {
+            "des_district": "DES district",
+            "res_network": "RES network",
+            "external": "Network outside the solidarity economy"
+          }
+        },
+        {
+          "key": "scope",
+          "type": "select",
+          "label": "Territorial scope",
+          "group": "Details",
+          "options": {
+            "regional": "Regional",
+            "interregional": "Interregional",
+            "national": "National"
+          }
+        }
+      ],
+      "filters": [
+        "location",
+        "network_type",
+        "legal_form"
+      ]
+    },
+    "distributor": {
+      "label": "Distributors",
+      "icon": "las la-truck",
+      "presets": [
+        {
+          "name": "title",
+          "required": true
+        },
+        {
+          "name": "description"
+        },
+        {
+          "name": "tag"
+        },
+        {
+          "name": "category",
+          "required": true
+        },
+        {
+          "name": "location",
+          "group": "Location"
+        },
+        {
+          "name": "address",
+          "group": "Location"
+        },
+        {
+          "name": "map",
+          "group": "Location"
+        },
+        {
+          "name": "email",
+          "group": "Contact"
+        },
+        {
+          "name": "phone",
+          "group": "Contact"
+        },
+        {
+          "name": "website",
+          "group": "Contact"
+        },
+        {
+          "name": "image_upload",
+          "group": "Media",
+          "label": "Cover image / photos"
+        }
+      ],
+      "fields": [
+        {
+          "key": "distributor_type",
+          "type": "select",
+          "label": "Distributor type",
+          "group": "Details",
+          "options": {
+            "fair_trade": "Fair trade shop",
+            "food_coop": "Food coop or community store",
+            "producer_shop": "Producer or GAS shop",
+            "market": "Market or fair",
+            "logistics": "Logistics and delivery",
+            "online": "Online platform",
+            "other": "Other"
+          }
+        },
+        {
+          "key": "scope",
+          "type": "select",
+          "label": "Territorial scope",
+          "group": "Details",
+          "options": {
+            "local": "Local",
+            "regional": "Regional",
+            "interregional": "Interregional",
+            "national": "National"
+          }
+        }
+      ],
+      "filters": [
+        "category",
+        "location",
+        "distributor_type",
+        "legal_form"
+      ]
+    }
+  },
+  "relations": [
+    {
+      "key": "promoted_by",
+      "from": "network",
+      "to": "network",
+      "label": "Promoted by",
+      "reverse_label": "Fairs and markets"
+    },
+    {
+      "key": "member_of",
+      "from": [
+        "producer",
+        "gas",
+        "network",
+        "distributor"
+      ],
+      "to": "network",
+      "label": "Member of",
+      "reverse_label": "Members"
+    },
+    {
+      "key": "supplies_gas",
+      "from": [
+        "producer",
+        "distributor"
+      ],
+      "to": "gas",
+      "label": "Supplies GAS groups",
+      "reverse_label": "Suppliers"
+    },
+    {
+      "key": "supplies_distributor",
+      "from": "producer",
+      "to": "distributor",
+      "label": "Supplies distributors",
+      "reverse_label": "Suppliers"
+    }
+  ]
+}
