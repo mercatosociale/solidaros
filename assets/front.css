@@ -1,0 +1,57 @@
+.sm-sb-box{max-width:760px;margin:30px auto;padding:28px;border:1px solid #ccd0d4;background:#fff;border-radius:6px;font-family:system-ui,sans-serif}
+.sm-sb-box h2{margin-top:0;color:#1d2327}
+.sm-sb-meta{color:#646970;font-size:14px}
+.sm-sb-block{margin:28px 0 14px;padding:10px 14px;background:#f0f6fc;border-left:4px solid #2271b1;font-size:16px}
+.sm-sb-field{margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid #f0f0f1}
+.sm-sb-label{display:block;margin-bottom:6px;font-weight:600}
+.sm-sb-help{display:block;font-size:13px;color:#50575e;background:#f6f7f7;padding:8px 10px;border-left:3px solid #2271b1;margin-bottom:10px;font-style:italic}
+.sm-sb-field input[type=text],.sm-sb-field input[type=number],.sm-sb-field select,.sm-sb-field textarea{width:100%;padding:8px;border:1px solid #8c8f94;border-radius:4px;box-sizing:border-box}
+.sm-sb-radio-group label,.sm-sb-checkbox-group label{display:inline-block;margin-right:16px}
+.sm-sb-checkbox-group label{display:block;margin-bottom:4px}
+.sm-sb-table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+.sm-sb-table th,.sm-sb-table td{padding:10px;text-align:left;border-bottom:1px solid #f0f0f1}
+.sm-sb-table thead tr{background:#f6f7f7}
+.sm-sb-badge{padding:3px 8px;border-radius:3px;font-size:12px;font-weight:700}
+.sm-sb-draft{background:#fef3cd;color:#664d03}
+.sm-sb-pending_review{background:#cff4fc;color:#055160}
+.sm-sb-completed{background:#d1e7dd;color:#0f5132}
+.sm-sb-button{display:inline-block;padding:10px 22px;background:#2271b1;color:#fff;border:0;border-radius:4px;font-weight:700;cursor:pointer;text-decoration:none}
+.sm-sb-button-secondary{background:#50575e}
+.sm-sb-actions{margin-top:22px;display:flex;gap:10px;justify-content:flex-end}
+.sm-sb-notice{padding:12px 14px;border-radius:4px;margin:14px 0;font-size:14px}
+.sm-sb-notice-ok{background:#d1e7dd;color:#0f5132}
+.sm-sb-notice-warn{background:#fef3cd;color:#664d03}
+.sm-sb-notice-error{background:#f8d7da;color:#842029}
+
+/* Responsive */
+.sm-sb-box,.sm-sb-box *{box-sizing:border-box}
+.sm-sb-box img,.sm-sb-box video{max-width:100%;height:auto}
+.sm-sb-box{overflow-wrap:anywhere}
+/* subject and evaluator area pages: boxes use the whole width of the page content */
+/* subject and evaluator area pages: no box around the content, it sits directly on the page and uses the whole column */
+.so-area{width:100%;max-width:none;box-sizing:border-box;padding-left:clamp(16px,5vw,60px);padding-right:clamp(16px,5vw,60px)}
+.so-area .sm-sb-box{max-width:none;width:100%;margin:0 0 24px;padding:0;border:0;border-radius:0;background:transparent}
+.so-area table{width:100%}
+.so-area-eval h2{font-size:var(--theme-heading-1-font-size,2.2em);line-height:1.2;font-weight:700;margin:0 0 .6em}
+@media(max-width:782px){
+.sm-sb-box{margin:16px 0;padding:16px;border-radius:0;border-left:0;border-right:0}
+.sm-sb-field input[type=text],.sm-sb-field input[type=number],.sm-sb-field input[type=email],.sm-sb-field input[type=date],.sm-sb-field select,.sm-sb-field textarea,.sm-sb-box input[type=email],.sm-sb-box input[type=password]{font-size:16px;min-height:44px}
+.sm-sb-radio-group label{display:block;margin:0 0 8px}
+.sm-sb-radio-group input,.sm-sb-checkbox-group input{margin-right:8px;transform:scale(1.2)}
+.sm-sb-checkbox-group label{margin-bottom:10px}
+.sm-sb-actions{flex-direction:column-reverse;align-items:stretch}
+.sm-sb-actions .sm-sb-button,.sm-sb-actions button{width:100%;text-align:center;min-height:44px}
+.sm-sb-button{min-height:44px;padding:12px 18px;text-align:center}
+.sm-sb-table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;font-size:13px}
+.sm-sb-table th,.sm-sb-table td{padding:8px;white-space:nowrap}
+.sm-sb-block{margin:20px -4px 12px}
+.sm-sb-help{font-size:13px}
+.sm-sb-band{flex-direction:column;align-items:stretch!important}
+.so-wizard-steps{flex-direction:column}
+.sm-sb-box textarea{width:100%}
+}
+@media(max-width:480px){.so-tools{grid-template-columns:1fr!important}}
+/* questionnaire: white sheet, fields in the page colour */
+form.so-questionnaire{background:#fff;padding:24px;border:1px solid #e3e3e3;border-radius:4px;box-sizing:border-box}
+form.so-questionnaire input[type=text],form.so-questionnaire input[type=number],form.so-questionnaire input[type=email],form.so-questionnaire input[type=date],form.so-questionnaire input[type=url],form.so-questionnaire select,form.so-questionnaire textarea{background:var(--theme-palette-color-7,#f5f6f7)}
+@media(max-width:600px){form.so-questionnaire{padding:16px}}
