@@ -1,0 +1,13 @@
+{
+  "default": "fas fa-map-pin",
+  "icons": {
+    "Comunità": "fas fa-people-roof",
+    "Persona": "fas fa-user",
+    "Casa": "fas fa-home"
+  },
+  "colors": {
+    "Comunità": "#6a1b9a",
+    "Persona": "#c27ba0",
+    "Casa": "#7f6000"
+  }
+}
