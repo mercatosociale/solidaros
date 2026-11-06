@@ -1,1 +1,1 @@
-# solidaros
+# SolidarOS
