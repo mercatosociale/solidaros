@@ -1,0 +1,4534 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Directorist Network 0.9.0\n"
+"Language: it_IT\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: directorist-network\n"
+
+#: includes/Categories.php:0
+msgid "\"%s\" added."
+msgstr "\"%s\" aggiunta."
+
+#: includes/Categories.php:0
+msgid "\"%s\" already exists here or could not be added."
+msgstr "\"%s\" esiste già qui o non è stato possibile aggiungerla."
+
+#: includes/Generator.php:0
+msgid "%1$d new %2$s created."
+msgstr "%1$d nuovi elementi creati (%2$s)."
+
+#: includes/Admin.php:0
+msgid "%1$d of %2$d rows processed. Do not close this page."
+msgstr "%1$d righe su %2$d elaborate. Non chiudere questa pagina."
+
+#: includes/Owners.php:0
+msgid "%1$s has your entity in its catalogue (%2$s)."
+msgstr "%1$s ha il tuo soggetto nel suo catalogo (%2$s)."
+
+#: includes/Entities.php:0
+msgid "%d entities have no coordinates and are not on the map."
+msgstr "%d soggetti senza coordinate non sono sulla mappa."
+
+#: includes/Entities.php:0
+msgid "%d entity has no coordinates and is not on the map."
+msgstr "%d soggetto senza coordinate non è sulla mappa."
+
+#: includes/Admin.php:0
+msgid "%d left untouched because edited by their owner."
+msgstr "%d lasciati invariati perché modificati dal loro titolare."
+
+#: includes/Admin.php:0
+msgid "%d relations resolved."
+msgstr "%d relazioni risolte."
+
+#: includes/Territories.php:0
+msgid "%d territories (Italy and regions) created from territories.json."
+msgstr "%d territori (Italia e regioni) creati da territories.json."
+
+#: includes/Generator.php:0
+msgid ""
+"%s: a catalogue type with this name already exists and was not created by "
+"this plugin; rename or delete it, then retry."
+msgstr ""
+"%s: esiste già un tipo di catalogo con questo nome, non creato da questo "
+"plugin; rinominalo o eliminalo e riprova."
+
+#: includes/Generator.php:0
+msgid ""
+"%s: already exists, left untouched (your changes in the Directory Builder "
+"are kept)."
+msgstr ""
+"%s: esiste già, lasciato invariato (le tue modifiche nel Directory Builder "
+"restano)."
+
+#: includes/Generator.php:0
+msgid "%s: could not read Directorist's sample files."
+msgstr "%s: impossibile leggere i file di esempio di Directorist."
+
+#: includes/Generator.php:0
+msgid "%s: catalogue type saved."
+msgstr "%s: tipo di catalogo salvato."
+
+#: includes/Demo.php:0
+msgid ""
+"10 fictitious entities in different regions, with categories, map pins, "
+"social reports, profiles, an entry waiting for approval and one edited by "
+"its owner. If Solidaros is active it receives test questionnaires too. "
+"Delete them all in one click when you are done."
+msgstr ""
+"10 soggetti fittizi in regioni diverse, con categorie, marcatori sulla "
+"mappa, bilanci sociali, profili, una scheda in attesa di approvazione e una "
+"modificata dal titolare. Se Solidaros è attivo riceve anche questionari di "
+"prova. Cancellali tutti con un clic quando hai finito."
+
+#: includes/Categories.php:0
+msgid "Add a category"
+msgstr "Aggiungi una categoria"
+
+#: includes/Categories.php:0
+msgid "Add category"
+msgstr "Aggiungi categoria"
+
+#: includes/Admin.php:0
+msgid ""
+"Add or remove fields, and change the card and single-page layout, in "
+"Directory Builder (Directory → Directory Types). Your changes are kept; the "
+"CSV import picks up custom fields you add."
+msgstr ""
+"Aggiungi o rimuovi campi e cambia il layout di card e scheda singola nel "
+"Directory Builder (Directory → Directory Types). Le tue modifiche restano; "
+"l'import CSV riconosce i campi personalizzati che aggiungi."
+
+#: includes/Categories.php:0
+msgid "Add subcategory"
+msgstr "Aggiungi sottocategoria"
+
+#: includes/Entities.php:0
+msgid "All"
+msgstr "Tutti"
+
+#: includes/Entities.php:0
+msgid "All categories"
+msgstr "Tutte le categorie"
+
+#: includes/Territory.php:0
+msgid "All territories"
+msgstr "Tutti i territori"
+
+#: includes/Entities.php:0
+msgid "All types"
+msgstr "Tutti i tipi"
+
+#: includes/Admin.php:0
+msgid "Also overwrite entities already edited by their owner"
+msgstr "Sovrascrivi anche i soggetti già modificati dal loro titolare"
+
+#: includes/Admin.php:0
+msgid "An import is in progress."
+msgstr "Un'importazione è in corso."
+
+#: includes/Entities.php:0
+msgid "Ascending: click for descending"
+msgstr "Crescente: clicca per decrescente"
+
+#: includes/Territory.php:0
+msgid "By category"
+msgstr "Per categoria"
+
+#: includes/Territory.php:0
+msgid "By type"
+msgstr "Per tipo"
+
+#: includes/Admin.php:0
+msgid "CSV file"
+msgstr "File CSV"
+
+#: includes/Admin.php:0
+msgid "CSV template: %s"
+msgstr "Modello CSV: %s"
+
+#: includes/Entities.php:0
+msgid "Card view"
+msgstr "Vista a schede"
+
+#: includes/Entities.php:0
+msgid "Cards"
+msgstr "Schede"
+
+#: includes/Pages.php:0
+msgid "Categories"
+msgstr "Categorie"
+
+#: includes/Categories.php:0
+msgid "Categories and subcategories"
+msgstr "Categorie e sottocategorie"
+
+#: includes/Generator.php:0
+msgid "Categories come from your saved list (Network categories)."
+msgstr "Le categorie vengono dal tuo elenco salvato (Categorie del network)."
+
+#: includes/Admin.php:0
+msgid ""
+"Categories with entity and product profiles (slugs, comma separated; empty ="
+" all entities)"
+msgstr ""
+"Categorie con Scheda azienda e Schede Prodotti (slug separati da virgola; "
+"vuoto = tutti i soggetti)"
+
+#: includes/Entities.php:0
+msgid "Category"
+msgstr "Categoria"
+
+#: includes/Categories.php:0
+msgid "Category deleted."
+msgstr "Categoria eliminata."
+
+#: includes/Admin.php:0
+msgid ""
+"Choose what the site is about and press the button: catalogue types, fields,"
+" filters, categories, territory page and menu are created and Directorist is"
+" configured."
+msgstr ""
+"Scegli di cosa tratta il sito e premi il pulsante: vengono creati tipi di "
+"catalogo, campi, filtri, categorie, pagina Territorio e menu, e Directorist "
+"viene configurato."
+
+#: includes/Register.php:0
+msgid ""
+"Choose what you want to register. Your entry will appear in the catalogue "
+"after it has been reviewed."
+msgstr ""
+"Scegli cosa vuoi censire. La tua scheda comparirà nel catalogo dopo la "
+"verifica."
+
+#: includes/Owners.php:0
+msgid "Choose your password with this link to check and update your data:"
+msgstr ""
+"Scegli la password con questo link per verificare e aggiornare i tuoi dati:"
+
+#: includes/Entities.php:0
+msgid "City"
+msgstr "Città"
+
+#: includes/Categories.php:0
+msgid ""
+"Columns: category, subcategory (the subcategory may be empty). Existing "
+"names are kept; only the missing ones are added. Header names in Italian "
+"(categoria, sottocategoria) work too."
+msgstr ""
+"Colonne: categoria, sottocategoria (la sottocategoria può essere vuota). I "
+"nomi esistenti restano com'è; si aggiungono solo quelli mancanti. Vanno bene"
+" anche le intestazioni in italiano (categoria, sottocategoria)."
+
+#: includes/Admin.php:0
+msgid ""
+"Comma or semicolon separated, UTF-8. Header names: the field keys, or the "
+"field labels in English or in the site language. Categories and locations: "
+"separate several with \";\" and write a hierarchy as \"Parent > Child\". The"
+" file is deleted when the import ends."
+msgstr ""
+"Separato da virgole o punti e virgola, UTF-8. Intestazioni: le chiavi dei "
+"campi, oppure le etichette dei campi in inglese o nella lingua del sito. "
+"Categorie e località: separa più valori con \";\" e scrivi una gerarchia "
+"come \"Padre > Figlio\". Il file viene eliminato al termine "
+"dell'importazione."
+
+#: includes/Admin.php:0
+msgid "Consent links (registration form)"
+msgstr "Link per i consensi (modulo di registrazione)"
+
+#: includes/Register.php:0
+msgid "Continue"
+msgstr "Continua"
+
+#: includes/DirectoryBuilder.php:0
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+#: includes/Admin.php:0
+msgid "Cookie Policy URL"
+msgstr "URL della Cookie Policy"
+
+#: includes/Entities.php:0
+msgid "Copied"
+msgstr "Copiato"
+
+#: includes/Entities.php:0
+msgid "Copy"
+msgstr "Copia"
+
+#: includes/Categories.php:0
+msgid "Could not delete the category."
+msgstr "Non è stato possibile eliminare la categoria."
+
+#: includes/Owners.php:0
+msgid "Could not link the entry. Contact the site administrator."
+msgstr "Impossibile collegare la scheda. Contatta l'amministratore del sito."
+
+#: includes/Admin.php:0
+msgid "Create a \"Directory\" menu with the main pages"
+msgstr "Crea un menu \"Directory\" con le pagine principali"
+
+#: includes/Admin.php:0
+msgid "Create missing categories, locations and tags"
+msgstr "Crea categorie, località e tag mancanti"
+
+#: includes/Setup.php:0
+msgid "Default catalogue type set."
+msgstr "Tipo di catalogo predefinito impostato."
+
+#: includes/Categories.php:0
+msgid "Delete"
+msgstr "Elimina"
+
+#: includes/Demo.php:0
+msgid "Delete all demo data?"
+msgstr "Cancellare tutti i dati di prova?"
+
+#: includes/Demo.php:0
+msgid "Delete demo data"
+msgstr "Cancella dati di prova"
+
+#: includes/Admin.php:0
+msgid "Delete the starter \"General\" catalogue type (only if it has no listings)"
+msgstr ""
+"Elimina il tipo di catalogo iniziale \"General\" (solo se non contiene "
+"schede)"
+
+#: includes/Categories.php:0
+msgid "Delete this category?"
+msgstr "Eliminare questa categoria?"
+
+#: includes/Demo.php:0
+msgid "Demo data"
+msgstr "Dati di prova"
+
+#: includes/Demo.php:0
+msgid "Demo data deleted: %d entities."
+msgstr "Dati di prova cancellati: %d soggetti."
+
+#: includes/Demo.php:0
+msgid "Demo data loaded: %d entities."
+msgstr "Dati di prova caricati: %d soggetti."
+
+#: includes/Demo.php:0
+msgid "Demo entities present: %d"
+msgstr "Soggetti di prova presenti: %d"
+
+#: includes/Entities.php:0
+msgid "Descending: click for ascending"
+msgstr "Decrescente: clicca per crescente"
+
+#: includes/Pages.php:0
+msgid "Describe here what the network is, who promotes it and who it is for."
+msgstr "Descrivi qui cos'è la rete, chi la promuove e a chi si rivolge."
+
+#: includes/Pages.php:0
+msgid "Describe the commitment to complete the entity profile."
+msgstr "Descrivi l'impegno a compilare la Scheda azienda."
+
+#: includes/Pages.php:0
+msgid "Describe the commitment to complete the product profile."
+msgstr "Descrivi l'impegno a compilare le Schede Prodotti."
+
+#: includes/Pages.php:0
+msgid "Describe the commitment to complete the social report."
+msgstr "Descrivi l'impegno a compilare il bilancio sociale."
+
+#: includes/Demo.php:0
+msgid ""
+"Directorist (with the Directory Builder) is not active. Activate it first."
+msgstr "Directorist (con il Directory Builder) non è attivo. Attivalo prima."
+
+#: includes/Admin.php:0
+msgid "Directorist Network"
+msgstr "Directorist Network"
+
+#: includes/Admin.php:0
+msgid "Directorist Network — profiles"
+msgstr "Directorist Network — profili"
+
+#: includes/Admin.php:0
+msgid "Directorist Network — quick setup"
+msgstr "Directorist Network — configurazione rapida"
+
+#: includes/Generator.php:0
+msgid "Directorist is not active or is too old."
+msgstr "Directorist non è attivo o è troppo vecchio."
+
+#: includes/Register.php:0
+msgid "Directorist settings API not found."
+msgstr "API impostazioni di Directorist non trovata."
+
+#: includes/Setup.php:0
+msgid "Directory"
+msgstr "Directory"
+
+#: includes/Admin.php:0
+msgid "Catalogue type"
+msgstr "Tipo di catalogo"
+
+#: includes/Entities.php:0
+msgid "District"
+msgstr "Quartiere"
+
+#: includes/Categories.php:0
+msgid "Download current list (CSV)"
+msgstr "Scarica l'elenco attuale (CSV)"
+
+#: includes/Admin.php:0
+msgid "Download images from the image column (URLs)"
+msgstr "Scarica le immagini dalla colonna immagine (URL)"
+
+#: includes/Admin.php:0
+msgid "Draft"
+msgstr "Bozza"
+
+#: includes/Owners.php:0
+msgid ""
+"Enter the e-mail of the entity: we send a link to it to take over the entry "
+"and update it."
+msgstr ""
+"Inserisci l'email del soggetto: le inviamo un link per prendere in carico la"
+" scheda e aggiornarla."
+
+#: includes/Categories.php:0
+msgid "Entities"
+msgstr "Soggetti"
+
+#: includes/Entities.php:0
+msgid "Entities found: %d"
+msgstr "Soggetti trovati: %d"
+
+#: includes/Setup.php:0
+msgid "Entities page ready (shortcode [dirnet_entities])."
+msgstr "Pagina dei soggetti pronta (shortcode [dirnet_entities])."
+
+#: includes/Owners.php:0
+msgid "Entity e-mail"
+msgstr "Email del soggetto"
+
+#: includes/Pages.php:0
+msgid "Entity profile"
+msgstr "Scheda azienda"
+
+#: includes/Categories.php:0
+msgid ""
+"Every change is also saved to %s, and that list is the one used when you "
+"generate a profile."
+msgstr ""
+"Ogni modifica viene salvata anche in %s, e quell'elenco è quello usato "
+"quando generi un profilo."
+
+#: includes/Pages.php:0
+msgid ""
+"Explain how to find entities, how to join and what the membership commits "
+"to."
+msgstr ""
+"Spiega come trovare i soggetti, come aderire e a cosa impegna l'adesione."
+
+#: includes/Entities.php:0
+msgid "Export"
+msgstr "Esporta"
+
+#: includes/Entities.php:0
+msgid "Filter"
+msgstr "Filtra"
+
+#: includes/Admin.php:0
+msgid ""
+"Find coordinates for rows without them (OpenStreetMap Nominatim, about 1 row"
+" per second)"
+msgstr ""
+"Cerca le coordinate per le righe che ne sono prive (OpenStreetMap Nominatim,"
+" circa 1 riga al secondo)"
+
+#: includes/Admin.php:0
+msgid "Generate"
+msgstr "Genera"
+
+#: includes/Admin.php:0
+msgid "Generate a profile first (Site profile), then import its data here."
+msgstr ""
+"Genera prima un profilo (Profili di rete), poi importa qui i suoi dati."
+
+#: includes/Pages.php:0
+msgid "Here the entity fills in or edits its social report."
+msgstr "Qui il soggetto compila o modifica il proprio bilancio sociale."
+
+#: includes/Setup.php:0
+msgid "Home"
+msgstr "Home"
+
+#: includes/Pages.php:0
+msgid "How it works"
+msgstr "Come funziona"
+
+#: includes/Membership.php:0
+msgid "I accept the %1$s and request to join %2$s"
+msgstr "Accetto le %1$s e richiedo di entrare nel %2$s"
+
+#: includes/DirectoryBuilder.php:0
+msgid "I accept the %1$s, the %2$s and the %3$s"
+msgstr "Accetto la %1$s, la %2$s e i %3$s"
+
+#: includes/Register.php:0
+msgid "I want to register a…"
+msgstr "Voglio censire…"
+
+#: includes/Owners.php:0
+msgid ""
+"If this e-mail is in the catalogue, we have sent a confirmation link to it."
+msgstr ""
+"Se questa email è nel catalogo, le abbiamo inviato un link di conferma."
+
+#: includes/Owners.php:0
+msgid "If you did not ask for it, ignore this message."
+msgstr "Se non l'hai chiesto, ignora questo messaggio."
+
+#: includes/Admin.php:0
+msgid "Ignored columns: %s"
+msgstr "Colonne ignorate: %s"
+
+#: includes/Admin.php:0
+msgid "Import"
+msgstr "Importa"
+
+#: includes/Admin.php:0
+msgid "Import CSV"
+msgstr "Importa CSV"
+
+#: includes/Categories.php:0
+msgid "Import and export (CSV)"
+msgstr "Import ed export dati (CSV)"
+
+#: includes/Categories.php:0
+msgid "Import categories"
+msgstr "Importa categorie"
+
+#: includes/Categories.php:0
+msgid ""
+"Import done: %1$d rows read, %2$d new categories or subcategories created."
+msgstr ""
+"Importazione completata: %1$d righe lette, %2$d nuove categorie o "
+"sottocategorie create."
+
+#: includes/Admin.php:0
+msgid "Import finished: %1$d created, %2$d updated, %3$d errors."
+msgstr "Importazione terminata: %1$d create, %2$d aggiornate, %3$d errori."
+
+#: includes/Admin.php:0
+msgid "Importing…"
+msgstr "Importazione in corso…"
+
+#: includes/Owners.php:0
+msgid "Invitations sent: %1$d. Not sent: %2$d."
+msgstr "Inviti spediti: %1$d. Non spediti: %2$d."
+
+#: includes/Owners.php:0
+msgid "Invited"
+msgstr "Invitati"
+
+#: includes/Owners.php:0
+msgid "Is your entity already in the list?"
+msgstr "Il tuo soggetto è già nell'elenco?"
+
+#: includes/Admin.php:0
+msgid "JSON: %s"
+msgstr "JSON: %s"
+
+#: includes/Entities.php:0
+msgid "Legal form"
+msgstr "Forma giuridica"
+
+#: includes/Admin.php:0
+msgid ""
+"Let entities register themselves from the website (entries are held for your"
+" approval)"
+msgstr ""
+"Consenti alle realtà di censirsi dal sito (le schede restano in attesa della"
+" tua approvazione)"
+
+#: includes/Entities.php:0
+msgid "List"
+msgstr "Elenco"
+
+#: includes/Geo.php:0
+msgid "List of regions, provinces and municipalities downloaded (%d regions)."
+msgstr "Elenco di regioni, province e comuni scaricato (%d regioni)."
+
+#: includes/Entities.php:0
+msgid "List view"
+msgstr "Vista a elenco"
+
+#: includes/Admin.php:0
+msgid "Listing status"
+msgstr "Stato delle schede"
+
+#: includes/Demo.php:0
+msgid "Load demo data"
+msgstr "Carica dati di prova"
+
+#: includes/Pages.php:0
+msgid "Log in to fill in or edit your social report."
+msgstr "Accedi per compilare o modificare il tuo bilancio sociale."
+
+#: includes/Entities.php:0
+msgid "Map"
+msgstr "Mappa"
+
+#: includes/CategoryIcons.php:0
+msgid "Map icon set on %d categories (change it in Directorist > Categories)."
+msgstr ""
+"Icona della mappa impostata su %d categorie (modificala in Directorist > "
+"Categorie)."
+
+#: includes/CategoryIcons.php:0
+msgid "Map pin colour"
+msgstr "Colore del marcatore sulla mappa"
+
+#: includes/Setup.php:0
+msgid "Map provider set to OpenStreetMap (no API key needed)."
+msgstr "Mappa impostata su OpenStreetMap (nessuna chiave API necessaria)."
+
+#: includes/Pages.php:0
+msgid "Membership"
+msgstr "Adesione"
+
+#: includes/Pages.php:0
+msgid "Membership conditions"
+msgstr "Condizioni di adesione"
+
+#: includes/Admin.php:0
+msgid "Membership conditions page URL"
+msgstr "URL della pagina Condizioni di adesione"
+
+#: includes/Setup.php:0
+msgid "Menu \"Directory\" already exists; left unchanged."
+msgstr "Il menu \"Directory\" esiste già; lasciato invariato."
+
+#: includes/Setup.php:0
+msgid ""
+"Menu \"Directory\" created (all theme locations were already in use; assign "
+"it in Appearance → Menus)."
+msgstr ""
+"Menu \"Directory\" creato (tutte le posizioni del tema erano già occupate; "
+"assegnalo da Aspetto → Menu)."
+
+#: includes/Setup.php:0
+msgid "Menu \"Directory\" created and assigned to location \"%s\"."
+msgstr "Menu \"Directory\" creato e assegnato alla posizione \"%s\"."
+
+#: includes/Geo.php:0
+msgid "Municipality"
+msgstr "Comune"
+
+#: includes/Categories.php:0
+msgid "Name"
+msgstr "Nome"
+
+#: includes/Categories.php:0
+msgid "Network categories"
+msgstr "Categorie del network"
+
+#: includes/Admin.php:0
+msgid "Network import"
+msgstr "Importazione di rete"
+
+#: includes/Admin.php:0
+msgid "Network import (CSV)"
+msgstr "Importazione di rete (CSV)"
+
+#: includes/Admin.php:0
+msgid "Network name in the membership sentence (empty = site name)"
+msgstr "Nome della rete nella frase di adesione (vuoto = nome del sito)"
+
+#: includes/Admin.php:0
+msgid "Site profile"
+msgstr "Profilo del sito"
+
+#: includes/Relations.php:0
+msgid "Network relations"
+msgstr "Relazioni di rete"
+
+#: includes/Admin.php:0
+msgid "Network setup"
+msgstr "Configurazione rapida"
+
+#: includes/Categories.php:0
+msgid "New subcategory of \"%s\""
+msgstr "Nuova sottocategoria di \"%s\""
+
+#: includes/Entities.php:0
+msgid "Next"
+msgstr "Successiva"
+
+#: includes/Entities.php:0
+msgid "No"
+msgstr "No"
+
+#: includes/Pages.php:0
+msgid "No categories yet."
+msgstr "Ancora nessuna categoria."
+
+#: includes/Categories.php:0
+msgid "No categories yet. Add one above or import a CSV below."
+msgstr ""
+"Nessuna categoria. Aggiungine una qui sopra o importa un CSV qui sotto."
+
+#: includes/Entities.php:0
+msgid "No entities match these filters."
+msgstr "Nessun soggetto corrisponde ai filtri."
+
+#: includes/Categories.php:0
+msgid "No file received."
+msgstr "Nessun file ricevuto."
+
+#: includes/Setup.php:0
+msgid "No pages found for the menu."
+msgstr "Nessuna pagina trovata per il menu."
+
+#: includes/Setup.php:0
+msgid "No starter \"General\" catalogue type found."
+msgstr "Nessun tipo di catalogo iniziale \"General\" trovato."
+
+#: includes/Territory.php:0
+msgid "No territories yet. Import listings with a location first."
+msgstr ""
+"Nessun territorio ancora. Importa prima delle schede con una località."
+
+#: includes/Admin.php:0
+msgid "No title column found."
+msgstr "Nessuna colonna del titolo trovata."
+
+#: includes/Relations.php:0
+msgid "Not found yet: %s"
+msgstr "Non ancora trovati: %s"
+
+#: includes/Admin.php:0
+msgid "Nothing to download."
+msgstr "Niente da scaricare."
+
+#: includes/Owners.php:0
+msgid ""
+"Open this link to take over your entry in the catalogue and choose your "
+"password:"
+msgstr ""
+"Apri questo link per prendere in carico la tua scheda nel catalogo e "
+"scegliere la password:"
+
+#: includes/Admin.php:0
+msgid "Options"
+msgstr "Opzioni"
+
+#: includes/Pages.php:0
+msgid "Pages created: %s. Their texts are drafts for you to complete."
+msgstr "Pagine create: %s. I testi sono bozze da completare."
+
+#: includes/Admin.php:0
+msgid ""
+"Pages linked in the consent boxes of the forms. Leave a field empty to show "
+"the name without a link. Applies to catalogue types created or reset after "
+"you save."
+msgstr ""
+"Pagine collegate nelle caselle di consenso dei moduli. Lascia vuoto un campo"
+" per mostrare il nome senza link. Il consenso su privacy, cookie e termini "
+"vale per i tipi creati o ripristinati dopo il salvataggio."
+
+#: includes/Demo.php:0
+msgid "Permission denied."
+msgstr "Permesso negato."
+
+#: includes/Admin.php:0
+msgid ""
+"Pick a profile and press Generate: the catalogue types, fields, search "
+"filters, categories and tags are created in Directorist."
+msgstr ""
+"Scegli un profilo e premi Genera: tipi di catalogo, campi, filtri di "
+"ricerca, categorie e tag vengono creati in Directorist."
+
+#: includes/Entities.php:0
+msgid "Previous"
+msgstr "Precedente"
+
+#: includes/DirectoryBuilder.php:0
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: includes/Admin.php:0
+msgid "Privacy Policy URL (empty = the WordPress privacy page)"
+msgstr "URL della Privacy Policy (vuoto = la pagina privacy di WordPress)"
+
+#: includes/Pages.php:0
+msgid "Product profile"
+msgstr "Schede Prodotti"
+
+#: includes/Sheets.php:0
+msgid "Product profile (%d)"
+msgstr "Schede Prodotti (%d)"
+
+#: includes/Sheets.php:0
+msgid "Product profile: %s"
+msgstr "Scheda Prodotto: %s"
+
+#: includes/Admin.php:0
+msgid "Profiles"
+msgstr "Profili"
+
+#: includes/Geo.php:0
+msgid "Province"
+msgstr "Provincia"
+
+#: includes/Admin.php:0
+msgid "Published"
+msgstr "Pubblicate"
+
+#: includes/Admin.php:0
+msgid "Quick setup"
+msgstr "Configurazione rapida"
+
+#: includes/Geo.php:0
+msgid "Region"
+msgstr "Regione"
+
+#: includes/Register.php:0
+msgid "Register your entity"
+msgstr "Registra il tuo soggetto"
+
+#: includes/Setup.php:0
+msgid "Registration page ready (shortcode [dirnet_register])."
+msgstr "Pagina di censimento pronta (shortcode [dirnet_register])."
+
+#: includes/Admin.php:0
+msgid ""
+"Relation columns in a CSV list the key (or title) of the related listings. "
+"Those not found at import time stay pending; run this after importing the "
+"other types."
+msgstr ""
+"Le colonne di relazione di un CSV elencano la chiave (o il titolo) delle "
+"schede collegate. Quelle non trovate durante l'importazione restano in "
+"sospeso: esegui questa operazione dopo aver importato gli altri tipi."
+
+#: includes/Admin.php:0
+msgid "Relation not resolved: %s"
+msgstr "Relazione non risolta: %s"
+
+#: includes/Admin.php:0
+msgid "Relations"
+msgstr "Relazioni"
+
+#: includes/Relations.php:0
+msgid "Relations are available for listings created from a network profile."
+msgstr ""
+"Le relazioni sono disponibili per le schede create da un profilo di rete."
+
+#: includes/Entities.php:0
+msgid "Reset"
+msgstr "Azzera"
+
+#: includes/Admin.php:0
+msgid "Reset to profile defaults"
+msgstr "Ripristina i default del profilo"
+
+#: includes/Admin.php:0
+msgid "Resolve pending relations"
+msgstr "Risolvi le relazioni in sospeso"
+
+#: includes/Importer.php:0
+msgid "Row %1$d: %2$s"
+msgstr "Riga %1$d: %2$s"
+
+#: includes/Demo.php:0
+msgid "Run the quick setup with at least one profile first."
+msgstr "Esegui prima la configurazione rapida con almeno un profilo."
+
+#: includes/Categories.php:0
+msgid "Save"
+msgstr "Salva"
+
+#: includes/Categories.php:0
+msgid "Saved: \"%s\"."
+msgstr "Salvato: \"%s\"."
+
+#: includes/Entities.php:0
+msgid "Search"
+msgstr "Cerca"
+
+#: includes/Entities.php:0
+msgid "Search by name…"
+msgstr "Cerca per nome…"
+
+#: includes/Entities.php:0
+msgid "Secondary legal form"
+msgstr "Forma giuridica secondaria"
+
+#: includes/Register.php:0
+msgid ""
+"Self-registration enabled: new and edited entries wait for your approval and"
+" you get an email for each submission."
+msgstr ""
+"Auto-censimento attivato: le schede nuove e modificate attendono la tua "
+"approvazione e ricevi una mail per ogni invio."
+
+#: includes/DirectoryBuilder.php:0
+msgid "Send a message"
+msgstr "Invia un messaggio"
+
+#: includes/Owners.php:0
+msgid "Send access invitation"
+msgstr "Invia invito di accesso"
+
+#: includes/Owners.php:0
+msgid "Send invitation"
+msgstr "Invia invito"
+
+#: includes/Owners.php:0
+msgid "Send invitation again"
+msgstr "Invia di nuovo l'invito"
+
+#: includes/Owners.php:0
+msgid "Send link"
+msgstr "Invia link"
+
+#: includes/Admin.php:0
+msgid "Set up my site"
+msgstr "Configura il mio sito"
+
+#: includes/Setup.php:0
+msgid "Setup finished. Next: import your data from Network import."
+msgstr ""
+"Configurazione completata. Prossimo passo: importa i dati da Network import."
+
+#: includes/Entities.php:0
+msgid "Show"
+msgstr "Mostra"
+
+#: includes/Pages.php:0
+msgid "Sign in"
+msgstr "Accedi"
+
+#: includes/Pages.php:0
+msgid "Sign out"
+msgstr "Disconnessione"
+
+#: includes/Admin.php:0
+msgid "Site"
+msgstr "Sito"
+
+#: includes/Pages.php:0
+msgid "Social Report"
+msgstr "Bilancio Sociale"
+
+#: includes/Pages.php:0
+msgid "Social report"
+msgstr "Bilancio sociale"
+
+#: includes/SocialReport.php:0
+msgid "Social report available"
+msgstr "Bilancio sociale presente"
+
+#: includes/SocialReport.php:0
+msgid "Social report not available"
+msgstr "Bilancio sociale non presente"
+
+#: includes/Admin.php:0
+msgid ""
+"Social report page: shortcode provided by Solidaros (e.g. "
+"[solidaros_producers])"
+msgstr ""
+"Pagina Bilancio sociale: shortcode fornito da Solidaros (es. "
+"[solidaros_producers])"
+
+#: includes/Entities.php:0
+msgid "Social report: any"
+msgstr "Bilancio sociale: tutti"
+
+#: includes/Entities.php:0
+msgid "Sort by"
+msgstr "Ordina per"
+
+#: includes/Setup.php:0
+msgid "Starter \"General\" catalogue type deleted."
+msgstr "Tipo di catalogo iniziale \"General\" eliminato."
+
+#: includes/Territory.php:0
+msgid "Subcategories"
+msgstr "Sottocategorie"
+
+#: includes/DirectoryBuilder.php:0
+msgid "Terms and Conditions"
+msgstr "Termini e Condizioni"
+
+#: includes/Admin.php:0
+msgid "Terms and Conditions URL"
+msgstr "URL dei Termini e Condizioni"
+
+#: includes/Setup.php:0
+msgid "Territories"
+msgstr "Territori"
+
+#: includes/Territory.php:0
+msgid "Territory"
+msgstr "Territori"
+
+#: includes/Generator.php:0
+msgid "Territory page ready (shortcode [dirnet_territory])."
+msgstr "Pagina del territorio pronta (shortcode [dirnet_territory])."
+
+#: includes/Setup.php:0
+msgid ""
+"The \"General\" type contains listings, so it was NOT deleted. Move or "
+"delete them, then run the setup again."
+msgstr ""
+"Il tipo \"General\" contiene schede, quindi NON è stato eliminato. Spostale "
+"o eliminale, poi riesegui la configurazione."
+
+#: includes/Setup.php:0
+msgid "The \"General\" type was left in place because it is the default."
+msgstr "Il tipo \"General\" è stato lasciato perché è quello predefinito."
+
+#: includes/Categories.php:0
+msgid ""
+"The category file could not be written (check that the uploads folder is "
+"writable)."
+msgstr ""
+"Non è stato possibile scrivere il file delle categorie (controlla che la "
+"cartella uploads sia scrivibile)."
+
+#: includes/Geo.php:0
+msgid "The downloaded list of municipalities is not in the expected format."
+msgstr "L'elenco dei comuni scaricato non ha il formato atteso."
+
+#: includes/Admin.php:0
+msgid "The file has no data rows."
+msgstr "Il file non contiene righe di dati."
+
+#: includes/Admin.php:0
+msgid "The file is too large (10 MB max)."
+msgstr "Il file è troppo grande (max 10 MB)."
+
+#: includes/Admin.php:0
+msgid "The first profile you tick provides the default catalogue type."
+msgstr ""
+"Il primo profilo selezionato fornisce il tipo di catalogo predefinito."
+
+#: includes/Owners.php:0
+msgid "The link stays valid for a few days."
+msgstr "Il link resta valido per alcuni giorni."
+
+#: includes/Categories.php:0
+msgid ""
+"The list is yours to change at any time: add, rename or delete categories "
+"and subcategories. Deleting a category does not delete its entities; they "
+"just lose that category."
+msgstr ""
+"L'elenco è tuo e puoi cambiarlo in ogni momento: aggiungere, rinominare o "
+"eliminare categorie e sottocategorie. Eliminare una categoria non elimina i "
+"soggetti: perdono solo quella categoria."
+
+#: includes/Geo.php:0
+msgid ""
+"The list of Italian municipalities could not be downloaded; the form falls "
+"back to the region only. It will retry on the next monthly run or the next "
+"setup."
+msgstr ""
+"Non è stato possibile scaricare l'elenco dei comuni italiani; il modulo usa "
+"solo la regione. Riproverà al prossimo ciclo mensile o alla prossima "
+"configurazione."
+
+#: includes/Pages.php:0
+msgid "The social report form is not connected yet."
+msgstr "Il modulo del bilancio sociale non è ancora collegato."
+
+#: includes/Categories.php:0
+msgid "This category has subcategories: delete them first."
+msgstr "Questa categoria ha sottocategorie: eliminale prima."
+
+#: includes/Owners.php:0
+msgid "This link is not valid or has expired. Ask for a new one."
+msgstr "Questo link non è valido o è scaduto. Chiedine uno nuovo."
+
+#: includes/Admin.php:0
+msgid ""
+"This overwrites the fields and layouts of these catalogue types, including "
+"changes you made in the Directory Builder. Continue?"
+msgstr ""
+"Questo sovrascrive campi e layout di questi tipi di catalogo, comprese le "
+"modifiche fatte nel Directory Builder. Continuare?"
+
+#: includes/Relations.php:0
+msgid ""
+"This type has no outgoing relations. Incoming ones are shown on the listing "
+"page."
+msgstr ""
+"Questo tipo non ha relazioni in uscita. Quelle in entrata sono mostrate "
+"nella pagina della scheda."
+
+#: includes/Admin.php:0
+msgid "Tick at least one profile."
+msgstr "Seleziona almeno un profilo."
+
+#: includes/Owners.php:0
+msgid "To invite"
+msgstr "Da invitare"
+
+#: includes/Categories.php:0
+msgid "Tree"
+msgstr "Struttura"
+
+#: includes/Admin.php:0
+msgid "Unknown catalogue type."
+msgstr "Tipo di catalogo sconosciuto."
+
+#: includes/Admin.php:0
+msgid "Unknown profile."
+msgstr "Profilo sconosciuto."
+
+#: includes/Admin.php:0
+msgid "Upload a .csv file."
+msgstr "Carica un file .csv."
+
+#: includes/Admin.php:0
+msgid "Use OpenStreetMap (no API key)"
+msgstr "Usa OpenStreetMap (nessuna chiave API)"
+
+#: includes/Entities.php:0
+msgid "View on map"
+msgstr "Visualizza su mappa"
+
+#: includes/Entities.php:0
+msgid "Website"
+msgstr "Sito web"
+
+#: includes/Pages.php:0
+msgid "What it is"
+msgstr "Cosa è"
+
+#: includes/Pages.php:0
+msgid "What the entity profile is, how it is filled in and how to read it."
+msgstr "Cos'è la Scheda azienda, come si compila e come si legge."
+
+#: includes/Pages.php:0
+msgid "What the product profile is, how it is filled in and how to read it."
+msgstr "Cosa sono le Schede Prodotti, come si compilano e come si leggono."
+
+#: includes/Pages.php:0
+msgid ""
+"Write here the conditions to join. This page is linked from the registration"
+" form."
+msgstr ""
+"Scrivi qui le condizioni per aderire. Questa pagina è collegata dal modulo "
+"di registrazione."
+
+#: includes/Entities.php:0
+msgid "Yes"
+msgstr "Sì"
+
+#: includes/Pages.php:0
+msgid "You are signed in."
+msgstr "Hai effettuato l'accesso."
+
+#: includes/Owners.php:0
+msgid "[%s] Access to your entity"
+msgstr "[%s] Accesso al tuo soggetto"
+
+#: includes/Owners.php:0
+msgid "[%s] Confirm your entity"
+msgstr "[%s] Conferma il tuo soggetto"
+
+#: includes/Admin.php:0
+msgid "generated"
+msgstr "generato"
+
+#: includes/Membership.php:0
+msgid "membership conditions"
+msgstr "condizioni di adesione"
+
+#: includes/Importer.php:0
+msgid "missing title."
+msgstr "titolo mancante."
+
+#: includes/Register.php:0
+msgid "— Select —"
+msgstr "— Seleziona —"
+
+msgid "Producers"
+msgstr "Produttori"
+
+msgid "GAS"
+msgstr "GAS"
+
+msgid "Networks"
+msgstr "Reti"
+
+msgid "No categories with content yet."
+msgstr "Nessuna categoria con contenuti."
+
+msgid "No territories with content yet."
+msgstr "Nessun territorio con contenuti."
+
+msgid "News"
+msgstr "Notizie"
+
+msgid "Network news"
+msgstr "Notizie della rete"
+
+msgid "All sources"
+msgstr "Tutte le fonti"
+
+msgid "No news at the moment."
+msgstr "Nessuna notizia al momento."
+
+msgid "Update now"
+msgstr "Aggiorna ora"
+
+msgid "Save and update now"
+msgstr "Salva e aggiorna ora"
+
+msgid "Satellite"
+msgstr "Satellite"
+
+msgid "Light"
+msgstr "Chiara"
+
+msgid "Roles"
+msgstr "Ruoli"
+
+msgid "Role"
+msgstr "Ruolo"
+
+msgid "Sub-roles"
+msgstr "Sottoruoli"
+
+msgid "All roles"
+msgstr "Tutti i ruoli"
+
+msgid "World shops"
+msgstr "Botteghe del mondo"
+
+msgid "Food coops and community stores"
+msgstr "Food coop ed empori di comunità"
+
+msgid "Services"
+msgstr "Servizi"
+
+msgid "Legal profile"
+msgstr "Profilo giuridico"
+
+msgid "Description by role"
+msgstr "Descrizione per ruolo"
+
+msgid ""
+"Assign the roles in the Roles box; write here what the entity does in each "
+"of them."
+msgstr ""
+"Assegna i ruoli nel riquadro Ruoli; qui scrivi cosa fa il soggetto in "
+"ciascuno."
+
+msgid "Energy communities"
+msgstr "Comunità energetiche"
+
+msgid "Fairs and events"
+msgstr "Fiere ed eventi"
+
+msgid "Markets and fairs"
+msgstr "Mercati e fiere"
+
+msgid "Suggested edits"
+msgstr "Modifiche suggerite"
+
+msgid "Suggested edit"
+msgstr "Modifica suggerita"
+
+msgid "Search suggestions"
+msgstr "Cerca suggerimenti"
+
+msgid "No suggestions yet."
+msgstr "Nessun suggerimento finora."
+
+msgid "General information"
+msgstr "Informazioni generali"
+
+msgid "Address, phone or e-mail"
+msgstr "Indirizzo, telefono o e-mail"
+
+msgid "Website or social profiles"
+msgstr "Sito web o profili social"
+
+msgid "Description"
+msgstr "Descrizione"
+
+msgid "Category or roles"
+msgstr "Categoria o ruoli"
+
+msgid "Network or group membership"
+msgstr "Appartenenza a una rete o a un gruppo"
+
+msgid "It no longer exists, or it is a duplicate"
+msgstr "Non esiste più, oppure è un doppione"
+
+msgid "Something else"
+msgstr "Altro"
+
+msgid ""
+"Thank you: your suggestion has reached the editors. Nothing changes until "
+"they have checked it."
+msgstr ""
+"Grazie: il tuo suggerimento è arrivato alla redazione. Non cambia nulla "
+"finché non l'avrà verificato."
+
+msgid ""
+"The suggestion was not sent. Please check the form and try again in a few "
+"minutes."
+msgstr ""
+"Il suggerimento non è stato inviato. Controlla il modulo e riprova tra "
+"qualche minuto."
+
+msgid "Suggest an edit"
+msgstr "Proponi una modifica"
+
+msgid "What should be changed?"
+msgstr "Cosa va modificato?"
+
+msgid "Your suggestion"
+msgstr "Il tuo suggerimento"
+
+msgid "Where can the editors check it? (a link, optional)"
+msgstr "Dove può verificarlo la redazione? (un link, facoltativo)"
+
+msgid "Your name (optional)"
+msgstr "Il tuo nome (facoltativo)"
+
+msgid "Your e-mail, only if you want a reply (optional)"
+msgstr "La tua e-mail, solo se vuoi una risposta (facoltativa)"
+
+msgid ""
+"If I gave an e-mail or a name, the editors may use it to answer me. It is "
+"deleted with the suggestion, within 180 days of being handled."
+msgstr ""
+"Se ho indicato un'e-mail o un nome, la redazione può usarli per rispondermi."
+" Vengono cancellati insieme al suggerimento, entro 180 giorni da quando è "
+"stato gestito."
+
+msgid "Send the suggestion"
+msgstr "Invia il suggerimento"
+
+msgid "anonymous"
+msgstr "anonimo"
+
+msgid "Entity"
+msgstr "Soggetto"
+
+msgid "view"
+msgstr "vedi"
+
+msgid "deleted"
+msgstr "cancellato"
+
+msgid "What"
+msgstr "Cosa"
+
+msgid "Suggestion"
+msgstr "Suggerimento"
+
+msgid "Source"
+msgstr "Fonte"
+
+msgid "From"
+msgstr "Da"
+
+msgid "Status"
+msgstr "Stato"
+
+msgid "New"
+msgstr "Nuovo"
+
+msgid "Applied"
+msgstr "Applicato"
+
+msgid "Dismissed"
+msgstr "Scartato"
+
+msgid "Handled suggestions are deleted after %d days."
+msgstr "I suggerimenti gestiti vengono cancellati dopo %d giorni."
+
+msgid "Entity — what"
+msgstr "Soggetto — cosa"
+
+msgid "[%1$s] Suggested edit: %2$s"
+msgstr "[%1$s] Modifica suggerita: %2$s"
+
+msgid ""
+"A visitor suggests an edit to \"%1$s\".\n"
+"\n"
+"What: %2$s\n"
+"\n"
+"%3$s\n"
+"\n"
+"Source: %4$s\n"
+"From: %5$s\n"
+"\n"
+"Entity: %7$s\n"
+"Review it here: %6$s\n"
+"\n"
+"Nothing has been changed. Edit the entity yourself, then mark the suggestion as applied or dismissed."
+msgstr ""
+"Un visitatore suggerisce una modifica a «%1$s».\n"
+"\n"
+"Cosa: %2$s\n"
+"\n"
+"%3$s\n"
+"\n"
+"Fonte: %4$s\n"
+"Da: %5$s\n"
+"\n"
+"Soggetto: %7$s\n"
+"Verificala qui: %6$s\n"
+"\n"
+"Non è stato modificato nulla. Modifica tu il soggetto, poi segna il suggerimento come applicato o scartato."
+
+msgid "Move up"
+msgstr "Sposta su"
+
+msgid "Move down"
+msgstr "Sposta giù"
+
+msgid "Move under…"
+msgstr "Sposta sotto…"
+
+msgid "(top level)"
+msgstr "(primo livello)"
+
+msgid "Order saved."
+msgstr "Ordine salvato."
+
+msgid "Nothing moved."
+msgstr "Nessuno spostamento."
+
+msgid "It is already there."
+msgstr "È già lì."
+
+msgid "A category cannot be moved inside itself."
+msgstr "Una categoria non può essere spostata dentro se stessa."
+
+msgid "A category with this name already exists there."
+msgstr "Esiste già una categoria con questo nome in quella posizione."
+
+msgid "\"%s\" moved."
+msgstr "«%s» spostata."
+
+msgid "Show page numbers"
+msgstr "Mostra i numeri di pagina"
+
+msgid "Use infinite scroll"
+msgstr "Usa lo scorrimento continuo"
+
+msgid "Infinite scroll"
+msgstr "Scorrimento continuo"
+
+msgid "Page numbers"
+msgstr "Numeri di pagina"
+
+msgid "Provinces"
+msgstr "Province"
+
+msgid "Types"
+msgstr "Tipi"
+
+msgid "Active"
+msgstr "Attiva"
+
+msgid "Expired"
+msgstr "Scaduta"
+
+msgid "No campaigns yet."
+msgstr "Nessuna campagna."
+
+msgid "Crowdfunding"
+msgstr "Crowdfunding"
+
+msgid "raised of %1$s (%2$d%%)"
+msgstr "raccolti su %1$s (%2$d%%)"
+
+msgid "Fundraiser closed"
+msgstr "Raccolta conclusa"
+
+msgid "Support with a bank transfer"
+msgstr "Sostieni con un bonifico"
+
+msgid "Account holder"
+msgstr "Intestatario del conto"
+
+msgid "Payment reference"
+msgstr "Causale"
+
+msgid ""
+"The transfer goes directly to the account of the entity running the "
+"fundraiser."
+msgstr "Il bonifico arriva direttamente sul conto del soggetto che raccoglie."
+
+msgid "The IBAN entered is not valid, so it is not shown. Please correct it."
+msgstr "L'IBAN inserito non è valido, quindi non viene mostrato. Correggilo."
+
+msgid "Open"
+msgstr "Apri"
+
+msgid "Closed"
+msgstr "Concluse"
+
+msgid "No fundraisers yet."
+msgstr "Nessuna raccolta fondi."
+
+msgid "%d day left"
+msgid_plural "%d days left"
+msgstr[0] "%d giorno rimasto"
+msgstr[1] "%d giorni rimasti"
+
+msgid "Campaigns"
+msgstr "Campagne"
+
+msgid "All campaigns"
+msgstr "Tutte"
+
+msgid "Fundraisers"
+msgstr "Raccolte fondi"
+
+msgid "Send"
+msgstr "Invia"
+
+msgid "Feeds that could not be read:"
+msgstr "Feed che non è stato possibile leggere:"
+
+msgid "I am already listed"
+msgstr "La scheda è già presente"
+
+msgid "I want to be listed"
+msgstr "La scheda non è presente"
+
+msgid "Similar entities"
+msgstr "Soggetti simili"
+
+msgid "Entity data"
+msgstr "Dati del soggetto"
+
+msgid "Contact the entity"
+msgstr "Contatta il soggetto"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Where"
+msgstr "Dove"
+
+msgid "Phone"
+msgstr "Telefono"
+
+msgid "Title:"
+msgstr "Titolo:"
+
+msgid "Directorist Network - Entity data"
+msgstr "Directorist Network - Dati del soggetto"
+
+msgid ""
+"Type, legal form, place, phone, website and social report of the entity."
+msgstr ""
+"Tipo, forma giuridica, luogo, telefono, sito e bilancio sociale del "
+"soggetto."
+
+msgid "Entity page"
+msgstr "Pagina del soggetto"
+
+msgid "Done. Open an entity page to check it."
+msgstr "Fatto. Apri la pagina di un soggetto per controllare."
+
+msgid ""
+"Title band of the theme (with category and territory under the title) and a "
+"sidebar with map, entity data and contact form."
+msgstr ""
+"Fascia del titolo del tema (con categoria e territorio sotto il titolo) e "
+"barra laterale con mappa, dati del soggetto e modulo di contatto."
+
+msgid "Directorist single page template"
+msgstr "Modello pagina singola di Directorist"
+
+msgid "(Directorist own page: the theme title band is not used)"
+msgstr ""
+"(pagina propria di Directorist: la fascia del titolo del tema non viene "
+"usata)"
+
+msgid "(theme template)"
+msgstr "(modello del tema)"
+
+msgid "Widgets in the sidebar"
+msgstr "Widget nella barra laterale"
+
+msgid "none: the sidebar is not shown"
+msgstr "nessuno: la barra laterale non viene mostrata"
+
+msgid "Set up the listing template"
+msgstr "Imposta il template della scheda"
+
+msgid ""
+"Uses the theme template and puts map, entity data and contact form in the "
+"sidebar (replaces the widgets of that sidebar)."
+msgstr ""
+"Usa il modello del tema e mette mappa, dati del soggetto e modulo di "
+"contatto nella barra laterale (sostituisce i widget di quella barra)."
+
+msgid "Entity category and territory"
+msgstr "Categoria e territorio del soggetto"
+
+msgid "shown on the entity page"
+msgstr "visibile nella pagina del soggetto"
+
+msgid "Back to Directorist default"
+msgstr "Torna al predefinito di Directorist"
+
+msgid "Relations of the entity"
+msgstr "Relazioni del soggetto"
+
+msgid "My space"
+msgstr "Il mio spazio"
+
+msgid "Create the entity"
+msgstr "Crea la scheda"
+
+msgid "You already have an account."
+msgstr "Hai già un account."
+
+msgid "Go to your space"
+msgstr "Vai alla tua Bacheca"
+
+msgid ""
+"This e-mail already has an account. We sent a link to it to choose a new "
+"password and sign in."
+msgstr ""
+"Questa email ha già un account. Ti abbiamo inviato un link per scegliere una"
+" nuova password e accedere."
+
+msgid ""
+"Please fill in all the required fields (password: at least 8 characters)."
+msgstr "Compila tutti i campi obbligatori (password: almeno 8 caratteri)."
+
+msgid "Too many attempts. Please try again later."
+msgstr "Troppi tentativi. Riprova più tardi."
+
+msgid "I am registering as"
+msgstr "Mi registro come"
+
+msgid "a legal person (association, company, group, network…)"
+msgstr "persona giuridica (associazione, azienda, gruppo, rete…)"
+
+msgid "a natural person (individual, professional, volunteer)"
+msgstr "persona fisica (singolo, professionista, volontario)"
+
+msgid "Name of the entity"
+msgstr "Denominazione del soggetto"
+
+msgid "First name"
+msgstr "Nome"
+
+msgid "Last name"
+msgstr "Cognome"
+
+msgid "Tax code / VAT number of the entity"
+msgstr "Codice fiscale / P.IVA del soggetto"
+
+msgid "Tax code"
+msgstr "Codice fiscale"
+
+msgid "E-mail"
+msgstr "Email"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "at least 8 characters"
+msgstr "almeno 8 caratteri"
+
+msgid ""
+"I agree to the processing of my data to manage my account and my entry in "
+"the catalogue."
+msgstr ""
+"Acconsento al trattamento dei miei dati per gestire il mio account e la mia "
+"scheda nel catalogo."
+
+msgid "Create the account"
+msgstr "Crea l'account"
+
+msgid ""
+"Request sent: an administrator will review it. You will receive an e-mail."
+msgstr "Richiesta inviata: un amministratore la valuterà. Riceverai un'email."
+
+msgid "Your previous request was not approved."
+msgstr "La tua richiesta precedente non è stata approvata."
+
+msgid "Request authorisation"
+msgstr "Richiedi l'autorizzazione"
+
+msgid "Sign in to see your space."
+msgstr "Accedi per vedere il tuo spazio."
+
+msgid "Register"
+msgstr "Registrati"
+
+msgid "Request sent: an administrator will review it."
+msgstr "Richiesta inviata: un amministratore la valuterà."
+
+msgid "Your entry in the catalogue."
+msgstr "La tua scheda nel catalogo."
+
+msgid "Your entry is waiting for review."
+msgstr "La tua scheda è in attesa di revisione."
+
+msgid "Edit the entry"
+msgstr "Modifica la scheda"
+
+msgid "Create the entry"
+msgstr "Crea la scheda"
+
+msgid ""
+"You are not in the catalogue yet. If you were, sign in with the e-mail of "
+"the entry or ask us."
+msgstr ""
+"Non sei ancora nel catalogo. Se ci sei già, accedi con l'email della scheda "
+"o scrivici."
+
+msgid "Fill in questionnaires as a producer"
+msgstr "Compila l'autocertificazione come produttore"
+
+msgid ""
+"Social report, entity and product profiles. An administrator authorises the "
+"request."
+msgstr ""
+"Bilancio sociale, profilo soggetto e profilo prodotti. La richiesta è "
+"autorizzata da un amministratore."
+
+msgid "Review questionnaires"
+msgstr "Valuta le autocertificazioni"
+
+msgid "Places and products to verify as a PGS reviewer."
+msgstr "Luoghi e prodotti da verificare come valutatore PGS."
+
+msgid "Review questionnaires as a PGS reviewer"
+msgstr "Valuta le autocertificazioni come valutatore PGS"
+
+msgid ""
+"Verify the places and products questionnaires of other entities. An "
+"administrator authorises the request."
+msgstr ""
+"Verifica i questionari di luoghi e prodotti di altri soggetti. La richiesta "
+"è autorizzata da un amministratore."
+
+msgid "Hello, %s"
+msgstr "Ciao, %s"
+
+msgid "[%s] Authorisation request"
+msgstr "[%s] Richiesta di autorizzazione"
+
+msgid "%1$s (%2$s) asks to be authorised as: %3$s"
+msgstr "%1$s (%2$s) chiede di essere autorizzato come: %3$s"
+
+msgid "Authorisation requests"
+msgstr "Richieste di autorizzazione"
+
+msgid "Solidaros is not active: authorising has no effect until it is."
+msgstr "Solidaros non è attivo: autorizzare non ha effetto finché non lo è."
+
+msgid "User"
+msgstr "Utente"
+
+msgid "Request"
+msgstr "Richiesta"
+
+msgid "Authorise"
+msgstr "Autorizza"
+
+msgid "Reject"
+msgstr "Rifiuta"
+
+msgid "No requests waiting."
+msgstr "Nessuna richiesta in attesa."
+
+msgid "[%s] Your request"
+msgstr "[%s] La tua richiesta"
+
+msgid "Your request has been approved. Open your personal page to start."
+msgstr ""
+"La tua richiesta è stata approvata. Apri la tua pagina personale per "
+"iniziare."
+
+msgid "Your request was not approved. Write to us if you want to know why."
+msgstr ""
+"La tua richiesta non è stata approvata. Scrivici se vuoi sapere perché."
+
+msgid "Reviewer registration"
+msgstr "Adesione valutatori"
+
+msgid "Register as a reviewer"
+msgstr "Registrati come valutatore"
+
+msgid "[%s] Confirm your entry"
+msgstr "[%s] Conferma la tua scheda"
+
+msgid ""
+"Someone sent the data of \"%s\", which is already in the catalogue. If it is"
+" you, open this link to join it to the existing entry:"
+msgstr ""
+"Qualcuno ha inviato i dati di \"%s\", già presente nel catalogo. Se sei tu, "
+"apri questo link per unirli alla scheda esistente:"
+
+msgid "This link is not valid or has expired."
+msgstr "Questo link non è valido o è scaduto."
+
+msgid "Could not join the entries. Contact the site administrator."
+msgstr "Impossibile unire le schede. Contatta l'amministratore del sito."
+
+msgid "Possible duplicate"
+msgstr "Possibile doppione"
+
+msgid "No duplicate found."
+msgstr "Nessun doppione trovato."
+
+msgid "Same tax code or e-mail as:"
+msgstr "Stesso codice fiscale o email di:"
+
+msgid "Merge into that entry"
+msgstr "Unisci in quella scheda"
+
+msgid "Now the data of your entry"
+msgstr "Ora i dati della tua scheda"
+
+msgid ""
+"If your entity is already in the catalogue, you will be asked to confirm "
+"from its e-mail and the data will be joined to the existing entry."
+msgstr ""
+"Se il tuo soggetto è già nel catalogo, ti verrà chiesto di confermare dalla "
+"sua email e i dati saranno uniti alla scheda esistente."
+
+msgid ""
+"We send a link to this e-mail: opening it signs you in and lets you complete"
+" your entry."
+msgstr ""
+"Inviamo un link a questa email: aprendolo entri e puoi completare la tua "
+"scheda."
+
+msgid "Send me the link"
+msgstr "Inviami il link"
+
+msgid ""
+"If the e-mail is correct, we have sent you a link: open it to continue."
+msgstr ""
+"Se l'email è corretta, ti abbiamo inviato un link: aprilo per continuare."
+
+msgid "[%s] Your sign-in link"
+msgstr "[%s] Il tuo link di accesso"
+
+msgid ""
+"Open this link to sign in and complete your registration. It works once and "
+"for one hour:"
+msgstr ""
+"Apri questo link per accedere e completare la registrazione. Vale una volta "
+"e per un'ora:"
+
+msgid "Could not create the account. Contact the site administrator."
+msgstr "Impossibile creare l'account. Contatta l'amministratore del sito."
+
+msgid ""
+"If your entity is already in the catalogue, its data will be joined to the "
+"existing entry."
+msgstr ""
+"Se il tuo soggetto è già nel catalogo, i suoi dati saranno uniti alla scheda"
+" esistente."
+
+msgid "Your entry is saved"
+msgstr "La tua scheda è salvata"
+
+msgid ""
+"You can fill in the social report and the entity and product profiles now, "
+"or later from your space."
+msgstr ""
+"Puoi compilare ora il bilancio sociale e i profili soggetto e prodotti, "
+"oppure più tardi dal tuo spazio."
+
+msgid "Go to the questionnaires"
+msgstr "Vai all'autocertificazione"
+
+msgid "Fill in now"
+msgstr "Compila ora"
+
+msgid "Later"
+msgstr "Più tardi"
+
+msgid "Who can fill in the questionnaires"
+msgstr "Chi può compilare l'autocertificazione"
+
+msgid ""
+"Entities in these categories (one name per line, parents included) get the "
+"social report and the entity and product profiles."
+msgstr ""
+"I soggetti in queste categorie (un nome per riga, anche come categoria "
+"madre) hanno bilancio sociale e profili soggetto e prodotti."
+
+msgid "Requests"
+msgstr "Richieste"
+
+msgid "You register as"
+msgstr "Ti registri come"
+
+msgid "an organisation (association, cooperative, company…)"
+msgstr "un'organizzazione (associazione, cooperativa, impresa…)"
+
+msgid "a person (individual producer)"
+msgstr "una persona (produttore individuale)"
+
+msgid ""
+"What is your function? Choose it: the form that follows is the one for your "
+"kind of entity. Your entry will appear in the catalogue after it has been "
+"reviewed."
+msgstr ""
+"Qual è la tua funzione? Scegline una: il modulo successivo è quello per il "
+"tuo tipo di soggetto. La scheda comparirà nel catalogo dopo la revisione."
+
+msgid "Change function"
+msgstr "Cambia funzione"
+
+msgid "Specific to farms and agricultural processing businesses."
+msgstr ""
+"Specifico per aziende agricole e di trasformazione di prodotti agricoli."
+
+msgid ""
+"You can fill in the social report and the entity and product profiles now, "
+"or later from your space. The entity and product profiles are specific to "
+"farms and agricultural processing businesses."
+msgstr ""
+"Puoi compilare ora il bilancio sociale e i profili soggetto e prodotti, "
+"oppure più tardi dal tuo spazio. I profili soggetto e prodotti sono "
+"specifici per aziende agricole e di trasformazione di prodotti agricoli."
+
+msgid "Staff accounts sign in from the normal login page."
+msgstr "Gli account dello staff accedono dalla pagina di login normale."
+
+msgid "Open this link to sign in. It works once and for one hour:"
+msgstr "Apri questo link per accedere. Vale una volta e per un'ora:"
+
+msgid "Enter"
+msgstr "Entra"
+
+msgid "To register, first enter with your e-mail."
+msgstr "Per aderire, prima entra con la tua email."
+
+msgid ""
+"Enter your e-mail to register or, if you are already registered, to sign in."
+" We will send you a link in an e-mail message: click it to enter the site, "
+"where you can complete your registration or manage your activities."
+msgstr ""
+"Inserisci la tua email per registrarti o, se sei già registrato, accedere. "
+"Ti verrà inviato un link in un messaggio email che dovrai cliccare per "
+"entrare sul sito, dove potrai completare la registrazione o gestire le tue "
+"attività."
+
+msgid "My documents"
+msgstr "Profili in valutazione"
+
+msgid "Questionnaires you have filled in and their status."
+msgstr "L'autocertificazione che hai compilato e il suo stato."
+
+msgid "Questionnaires"
+msgstr "Autocertificazione"
+
+msgid "Add another entry"
+msgstr "Aggiungi un'altra scheda"
+
+msgid "Choose the function and fill in the form of another entity."
+msgstr "Scegli la funzione e compila il modulo di un altro soggetto."
+
+msgid "Add"
+msgstr "Aggiungi"
+
+msgid "Your entry"
+msgstr "La tua scheda"
+
+msgid "Create your entry"
+msgstr "Crea la tua scheda"
+
+msgid "You are not in the catalogue yet."
+msgstr "Non sei ancora nel catalogo."
+
+msgid "Account data"
+msgstr "Dati dell'account"
+
+msgid "My profile"
+msgstr "Il mio profilo"
+
+msgid "Your campaigns"
+msgstr "Le tue campagne"
+
+msgid "New campaign"
+msgstr "Nuova campagna"
+
+msgid "Start a campaign for your entity."
+msgstr "Avvia una campagna per il tuo soggetto."
+
+msgid "Create"
+msgstr "Crea"
+
+msgid "Your fundraisers and the way to start one."
+msgstr "Le tue raccolte fondi e come avviarne una."
+
+msgid "Edit"
+msgstr "Modifica"
+
+msgid "Published in the catalogue."
+msgstr "Pubblicata nel catalogo."
+
+msgid "Waiting for review."
+msgstr "In attesa di revisione."
+
+msgid "Start a fundraiser"
+msgstr "Avvia una raccolta fondi"
+
+msgid "Collect donations by bank transfer for your project."
+msgstr "Raccogli donazioni con bonifico per il tuo progetto."
+
+msgid "Donations received"
+msgstr "Donazioni ricevute"
+
+msgid "Check the transfers received on your fundraisers."
+msgstr "Controlla i bonifici ricevuti sulle tue raccolte."
+
+msgid ""
+"A campaign can be started only by who already has a published entry in the "
+"catalogue."
+msgstr ""
+"Una campagna può essere avviata solo da chi ha già una scheda pubblicata nel"
+" catalogo."
+
+msgid ""
+"Start a campaign for your entity. An administrator approves it before it is "
+"published."
+msgstr ""
+"Avvia una campagna per il tuo soggetto. Un amministratore la approva prima "
+"della pubblicazione."
+
+msgid ""
+"You can start a campaign once your entry is published in the catalogue."
+msgstr ""
+"Potrai avviare una campagna quando la tua scheda sarà pubblicata nel "
+"catalogo."
+
+msgid ""
+"Collect donations by bank transfer for your project. An administrator "
+"approves it before it is published."
+msgstr ""
+"Raccogli donazioni con bonifico per il tuo progetto. Un amministratore la "
+"approva prima della pubblicazione."
+
+msgid "System pages"
+msgstr "Pagine di sistema"
+
+msgid ""
+"Choose which page does each job. The chosen pages are marked in the Pages "
+"list. Pages are not created or changed here."
+msgstr ""
+"Scegli quale pagina svolge ciascuna funzione. Le pagine scelte sono "
+"contrassegnate nell'elenco Pagine. Qui le pagine non vengono create né "
+"modificate."
+
+msgid "Directorist Network – %s"
+msgstr "Directorist Network – %s"
+
+msgid "Access"
+msgstr "Accesso"
+
+msgid "Membership registration"
+msgstr "Registrazione di adesione"
+
+msgid "Entities list"
+msgstr "Soggetti"
+
+msgid "— none —"
+msgstr "— nessuna —"
+
+msgid "Saved."
+msgstr "Salvato."
+
+msgid "these system pages are missing or not published: %s."
+msgstr "mancano queste pagine di sistema o non sono pubblicate: %s."
+
+msgid "Set them in System pages"
+msgstr "Impostale in Pagine di sistema"
+
+msgid "Directorist Network — shortcodes"
+msgstr "Directorist Network — shortcode"
+
+msgid ""
+"All the shortcodes of the plugin, and where they are used. The system pages "
+"are chosen in System pages."
+msgstr ""
+"Tutti gli shortcode del plugin e dove sono usati. Le pagine di sistema si "
+"scelgono in Pagine di sistema."
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "What it does"
+msgstr "Cosa fa"
+
+msgid "Attributes"
+msgstr "Attributi"
+
+msgid "Used in"
+msgstr "Usato in"
+
+msgid "Enabled or disabled in Solidaros › Settings › Shortcodes."
+msgstr "Abilitati o disabilitati in Solidaros › Impostazioni › Shortcode."
+
+msgid ""
+"Access (sign-in and registration): e-mail and consent, then the link that "
+"signs in. Registered people just enter their e-mail; everyone lands in the "
+"dashboard (Personal data, then My entry)."
+msgstr ""
+"Accesso: email e consenso, poi il link che fa entrare (i nuovi vanno ad "
+"\"Aggiungi scheda\")."
+
+msgid "List of the entities, with types, roles, filters and map."
+msgstr "Elenco dei soggetti, con tipi, ruoli, filtri e mappa."
+
+msgid "Only the map of the entities."
+msgstr "Solo la mappa dei soggetti."
+
+msgid "Territory page: regions, provinces, cities and their entities."
+msgstr "Pagina del territorio: regioni, province, comuni e i loro soggetti."
+
+msgid "Categories of the entities as coloured tiles."
+msgstr "Categorie dei soggetti come riquadri colorati."
+
+msgid "News of the network."
+msgstr "Notizie della rete."
+
+msgid "Form of the social report of the entity."
+msgstr "Modulo del bilancio sociale del soggetto."
+
+msgid "List of the campaigns."
+msgstr "Elenco delle campagne."
+
+msgid "Relations of an entity (member of, supplies, projects)."
+msgstr "Relazioni di un soggetto (aderisce a, rifornisce, progetti)."
+
+msgid ""
+"Choice of the function and the entry form (superseded by Directorist \"Add "
+"listing\")."
+msgstr ""
+"Scelta della funzione e modulo della scheda (sostituito da \"Aggiungi "
+"scheda\" di Directorist)."
+
+msgid ""
+"Registration of the PGS reviewers (natural persons). Keep it as a reserved "
+"page."
+msgstr ""
+"Registrazione dei valutatori PGS (persone fisiche). Tienila come pagina "
+"riservata."
+
+msgid "Personal area (also available inside the Directorist dashboard)."
+msgstr ""
+"Area personale (disponibile anche dentro il cruscotto di Directorist)."
+
+msgid "Old name of [dirnet_access]."
+msgstr "Vecchio nome di [dirnet_access]."
+
+msgid "[%s] An entry was joined automatically"
+msgstr "[%s] Una scheda è stata unita automaticamente"
+
+msgid ""
+"\"%1$s\" was updated with the data sent by %2$s. You can undo it from the "
+"entry:"
+msgstr ""
+"\"%1$s\" è stata aggiornata con i dati inviati da %2$s. Puoi annullare dalla"
+" scheda:"
+
+msgid "This entry received the data of another one."
+msgstr "Questa scheda ha ricevuto i dati di un'altra."
+
+msgid "Undo the last merge"
+msgstr "Annulla l'ultima unione"
+
+msgid "Looks like:"
+msgstr "Sembra uguale a:"
+
+msgid "Merge this entry into another one (ID):"
+msgstr "Unisci questa scheda a un'altra (ID):"
+
+msgid "Merge"
+msgstr "Unisci"
+
+msgid "Possible duplicate entry"
+msgstr "Possibile scheda duplicata"
+
+msgid ""
+"Is your organisation already listed? <a href=\"%s\">Search for it</a> before"
+" creating a new entry."
+msgstr ""
+"La tua organizzazione è già nell'elenco? <a href=\"%s\">Cercala</a> prima di"
+" crearne una nuova."
+
+msgid "Earlier questionnaires"
+msgstr "Autocertificazioni precedenti"
+
+msgid "Booklet"
+msgstr "Booklet"
+
+msgid "Example"
+msgstr "Esempio"
+
+msgid "Delete the demo data and keep one example per type?"
+msgstr "Eliminare i dati demo e tenere un esempio per tipo?"
+
+msgid "Go live: delete demo data, keep one example per type"
+msgstr "Vai in produzione: elimina i dati demo, tieni un esempio per tipo"
+
+msgid "Demo data deleted: %1$d entities. Examples kept: %2$d."
+msgstr "Dati demo eliminati: %1$d schede. Esempi mantenuti: %2$d."
+
+msgid "Test profile (%s)"
+msgstr "Profilo di prova (%s)"
+
+msgid "Replace the demo data with one test profile per type?"
+msgstr "Sostituire i dati demo con un profilo di prova per tipo?"
+
+msgid "Replace with one test profile per type"
+msgstr "Sostituisci con un profilo di prova per tipo"
+
+msgid ""
+"One test entity for every catalogue type (\"Test profile (Producer)\", …), "
+"with a test social report, entity profile and product profiles when "
+"Solidaros is active. Delete them in one click."
+msgstr ""
+"Una scheda di prova per ogni tipo (\"Profilo di prova (Produttore)\", …), "
+"con bilancio sociale, profilo soggetto e profili prodotti di prova se "
+"Solidaros è attivo. Si eliminano con un clic."
+
+msgid "Test campaign"
+msgstr "Campagna di prova"
+
+msgid "Test fundraiser"
+msgstr "Raccolta fondi di prova"
+
+msgid "This is a fictitious fundraiser, created to try out the site."
+msgstr "Questa è una raccolta fondi fittizia, creata per provare il sito."
+
+msgid "Merge this entry into the other one?"
+msgstr "Unire questa scheda all'altra?"
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "Quick setup and demo data"
+msgstr "Configurazione rapida e dati demo"
+
+msgid "Shortcodes"
+msgstr "Shortcode"
+
+msgid "Directorist Network — settings"
+msgstr "Directorist Network — impostazioni"
+
+msgid "Sessions"
+msgstr "Sessioni"
+
+msgid "Concluded"
+msgstr "Conclusa"
+
+msgid "Upcoming"
+msgstr "In arrivo"
+
+msgid "In progress"
+msgstr "In corso"
+
+msgid "%d seats"
+msgstr "%d posti"
+
+msgid "Adherents (%d)"
+msgstr "Aderenti (%d)"
+
+msgid "%d members"
+msgstr "%d soci"
+
+msgid "waiting list"
+msgstr "lista d'attesa"
+
+msgid "Withdraw"
+msgstr "Ritira"
+
+msgid "Remove"
+msgstr "Togli"
+
+msgid "none yet"
+msgstr "nessuno finora"
+
+msgid "Join with my GAS"
+msgstr "Iscrivi il mio GAS"
+
+msgid "Sign in with the account of your GAS to join."
+msgstr "Accedi con l'account del tuo GAS per iscriverti."
+
+msgid "Only the owner of a GAS entry can join."
+msgstr "Può iscriversi solo chi ha una scheda GAS."
+
+msgid "Fair trade shops"
+msgstr "Botteghe equosolidali"
+
+msgid "Roles merged: %d entries moved."
+msgstr "Ruoli uniti: %d schede spostate."
+
+msgid "Move all the entries to the other role and delete this one?"
+msgstr "Spostare tutte le schede nell'altro ruolo ed eliminare questo?"
+
+msgid "Merge roles"
+msgstr "Unisci ruoli"
+
+msgid "Move all the entries of"
+msgstr "Sposta tutte le schede di"
+
+msgid "into"
+msgstr "in"
+
+msgid "My entry"
+msgstr "La mia scheda"
+
+msgid "My questionnaires"
+msgstr "La mia autocertificazione"
+
+msgid "My campaigns"
+msgstr "Le mie campagne"
+
+msgid "My fundraisers"
+msgstr "Le mie raccolte fondi"
+
+msgid "My subscriptions"
+msgstr "Le mie sottoscrizioni"
+
+msgid ""
+"Fundraisers are not available yet: activate the Charitable IBAN plugin so "
+"the fundraiser pages are created."
+msgstr ""
+"Le raccolte fondi non sono ancora disponibili: attiva il plugin Charitable "
+"IBAN per creare le relative pagine."
+
+msgid "Log out"
+msgstr "Esci"
+
+msgid "Form to propose a correction to the entity."
+msgstr "Modulo per proporre una correzione al soggetto."
+
+msgid "Link to the social report of the entity and the earlier ones."
+msgstr "Link al bilancio sociale del soggetto e a quelli precedenti."
+
+msgid "Link to the entity profile questionnaire."
+msgstr "Link alla Scheda azienda."
+
+msgid "Product profiles"
+msgstr "Schede Prodotti"
+
+msgid "Links to the product profile questionnaires."
+msgstr "Link alle Schede Prodotti."
+
+msgid "Network relations: members, suppliers, projects."
+msgstr "Relazioni di rete: soci, fornitori, progetti."
+
+msgid "Open the form"
+msgstr "Apri il modulo"
+
+msgid "Waiting for approval"
+msgstr "In attesa di approvazione"
+
+msgid "Scheduled"
+msgstr "Programmata"
+
+msgid "Private"
+msgstr "Privata"
+
+msgid "Import / export data"
+msgstr "Import / export dati"
+
+msgid "Import and export data (CSV)"
+msgstr "Import ed export dati (CSV)"
+
+msgid "Export CSV"
+msgstr "Esporta CSV"
+
+msgid ""
+"Download all the entities of a catalogue type as a CSV file with the same "
+"columns as the import: edit it and import it again to update them."
+msgstr ""
+"Scarica tutti i soggetti di un tipo di catalogo in un file CSV con le stesse"
+" colonne dell'import: modificalo e reimportalo per aggiornarli."
+
+msgid "Categories have their own import and export."
+msgstr "Le categorie hanno import ed export dedicati."
+
+msgid "Open categories"
+msgstr "Apri categorie"
+
+msgid "Setup finished. Next: import your data from Import / export data."
+msgstr ""
+"Configurazione completata. Prossimo passo: importa i dati da Import / export"
+" dati."
+
+msgid "Owners of the entities"
+msgstr "Proprietari dei soggetti"
+
+msgid ""
+"Creates a subscriber user for each e-mail found in the entities already on "
+"the site and makes it the owner of its entities. No e-mail is sent: "
+"invitations are sent later from the Users screen. Subscribers that owned "
+"entities are deleted after the assignment (what is left to them goes to the "
+"administrator); administrators and editors are never changed, and entities "
+"without an e-mail stay with the administrators."
+msgstr ""
+"Crea un utente subscriber per ogni email trovata nei soggetti già presenti "
+"sul sito e lo rende proprietario dei propri soggetti. Non viene inviata "
+"nessuna email: gli inviti si mandano poi dalla schermata Utenti. Gli utenti "
+"subscriber che avevano dei soggetti vengono eliminati dopo l'assegnazione "
+"(ciò che resta loro passa all'amministratore); amministratori e editor non "
+"vengono mai modificati, e i soggetti senza email restano agli "
+"amministratori."
+
+msgid "Create owner users from e-mails"
+msgstr "Crea utenti proprietari dalle email"
+
+msgid ""
+"Entities linked to an owner: %1$d. New subscriber users: %2$d. Skipped "
+"(e-mail of an administrator or editor): %3$d. Without a valid e-mail: %4$d. "
+"Previous owner users removed: %5$d."
+msgstr ""
+"Soggetti collegati a un proprietario: %1$d. Nuovi utenti subscriber: %2$d. "
+"Saltati (email di un amministratore o editor): %3$d. Senza email valida: "
+"%4$d. Vecchi proprietari eliminati: %5$d."
+
+msgid "Create a campaign"
+msgstr "Creazione campagna"
+
+msgid "Create a fundraiser"
+msgstr "Creazione raccolta fondi"
+
+msgid "Sign in to start a campaign."
+msgstr "Accedi per avviare una campagna."
+
+msgid "Campaigns are not available yet."
+msgstr "Le campagne non sono ancora disponibili."
+
+msgid ""
+"Start a campaign for your entity. An administrator approves it before it is "
+"published."
+msgstr ""
+"Avvia una campagna per il tuo soggetto. Un amministratore la approva prima "
+"della pubblicazione."
+
+msgid "Create a listing"
+msgstr "Creazione scheda"
+
+msgid "Reviewer access"
+msgstr "Accesso valutatori"
+
+msgid "Move entities to another category"
+msgstr "Sposta le schede in un'altra categoria"
+
+msgid ""
+"Entities lose the \"from\" category and get the \"to\" one; their other "
+"categories stay. Only entities assigned directly to the category are moved "
+"(not those of its subcategories). The \"from\" category is not deleted. Back"
+" up first."
+msgstr ""
+"Le schede perdono la categoria di partenza e ricevono quella di arrivo; le "
+"altre categorie restano. Si spostano solo le schede assegnate direttamente "
+"alla categoria (non quelle delle sottocategorie). La categoria di partenza "
+"non viene eliminata. Fai prima un backup."
+
+msgid "From"
+msgstr "Da"
+
+msgid "To"
+msgstr "A"
+
+msgid "Preview"
+msgstr "Anteprima"
+
+msgid "Move"
+msgstr "Sposta"
+
+msgid "Move the entities? Back up first."
+msgstr "Spostare le schede? Fai prima un backup."
+
+msgid "Not allowed."
+msgstr "Non consentito."
+
+msgid "Choose two different categories."
+msgstr "Scegli due categorie diverse."
+
+msgid "Moved %1$d entities from \"%2$s\" to \"%3$s\"."
+msgstr "Spostate %1$d schede da \"%2$s\" a \"%3$s\"."
+
+msgid ""
+"Preview: %1$d entities would be moved from \"%2$s\" to \"%3$s\". Nothing "
+"changed."
+msgstr ""
+"Anteprima: verrebbero spostate %1$d schede da \"%2$s\" a \"%3$s\". Nessuna "
+"modifica fatta."
+
+msgid ""
+"Tiles of the services: social report, entity and product profile, listing "
+"creation, fundraiser creation, reviewer access. Everyone sees them; signing "
+"in is asked on click."
+msgstr ""
+"Riquadri dei servizi: bilancio sociale, profilo soggetto e prodotti, "
+"creazione scheda, creazione raccolta fondi, accesso valutatori. Li vedono "
+"tutti; l'accesso viene chiesto al clic."
+
+msgid ""
+"Form to create a campaign (add-listing form of the Campaigns type; sign-in "
+"required, an administrator approves it)."
+msgstr ""
+"Modulo per creare una campagna (inserimento scheda del tipo Campagne; serve "
+"l'accesso, la approva un amministratore)."
+
+msgid "reviewer"
+msgstr "valutatore"
+
+msgid "producer"
+msgstr "produttore"
+
+msgid "Review the requests"
+msgstr "Esamina le richieste"
+
+msgid "What do you want to register?"
+msgstr "Che cosa vuoi registrare?"
+
+msgid "Register a producer"
+msgstr "Registrazione produttore"
+
+msgid "Register a GAS"
+msgstr "Registrazione GAS"
+
+msgid "Register a network"
+msgstr "Registrazione rete"
+
+msgid "Sign in to register your entity."
+msgstr "Accedi per registrare il tuo soggetto."
+
+msgid "This kind of registration is not available yet."
+msgstr "Questo tipo di registrazione non è ancora disponibile."
+
+msgid ""
+"Form to register a producer, a GAS or a network (one page per kind; sign-in "
+"required)."
+msgstr ""
+"Modulo per registrare un produttore, un GAS o una rete (una pagina per tipo;"
+" serve l'accesso)."
+
+msgid "your entry is published."
+msgstr "la tua scheda è pubblicata."
+
+msgid "your entry was received and is waiting for review."
+msgstr "la tua scheda è stata ricevuta ed è in attesa di revisione."
+
+msgid "Next step: fill in the social report."
+msgstr "Prossimo passo: compila il bilancio sociale."
+
+msgid "Go to the social report"
+msgstr "Vai al bilancio sociale"
+
+msgid "Register another entry of this kind"
+msgstr "Registra un'altra scheda di questo tipo"
+
+msgid "Your account is ready. Now your entity:"
+msgstr "Il tuo account è pronto. Ora il tuo soggetto:"
+
+msgid ""
+"Request sent: an administrator will check it and assign the entry to you. "
+"You will receive an e-mail."
+msgstr ""
+"Richiesta inviata: un amministratore la controllerà e ti assegnerà la "
+"scheda. Riceverai un'e-mail."
+
+msgid "Is your entity already in the catalogue?"
+msgstr "Il tuo soggetto è già in catalogo?"
+
+msgid "Name or tax code"
+msgstr "Nome o codice fiscale"
+
+msgid "It is mine"
+msgstr "È mia"
+
+msgid "No entry found with this name."
+msgstr "Nessuna scheda trovata con questo nome."
+
+msgid "Not in the catalogue yet?"
+msgstr "Non è ancora in catalogo?"
+
+msgid "[%s] Request to be assigned an entry"
+msgstr "[%s] Richiesta di assegnazione di una scheda"
+
+msgid "%1$s (%2$s) says that \"%3$s\" is theirs."
+msgstr "%1$s (%2$s) dichiara che \"%3$s\" è suo."
+
+msgid "Requests to be assigned an entry"
+msgstr "Richieste di assegnazione di una scheda"
+
+msgid "Entry"
+msgstr "Scheda"
+
+msgid "Assign"
+msgstr "Assegna"
+
+msgid "The entry has been assigned to you. Open your space to continue."
+msgstr "La scheda ti è stata assegnata. Apri il tuo spazio per continuare."
+
+msgid ""
+"We could not assign the entry to you. Write to us if you want to know why."
+msgstr ""
+"Non abbiamo potuto assegnarti la scheda. Scrivici se vuoi saperne il motivo."
+
+msgid "asks to be assigned \"%s\""
+msgstr "chiede l'assegnazione di \"%s\""
+
+msgid "First create your account or sign in."
+msgstr "Prima crea il tuo account o accedi."
+
+msgid "Your account is ready."
+msgstr "Il tuo account è pronto."
+
+msgid "Continue: register your entity"
+msgstr "Continua: registra il tuo soggetto"
+
+msgid "Producer details"
+msgstr "Dati del produttore"
+
+msgid "GAS details"
+msgstr "Dati del GAS"
+
+msgid "Network details"
+msgstr "Dati della rete"
+
+msgid "Name of the producer"
+msgstr "Nome del produttore"
+
+msgid "Name of the GAS"
+msgstr "Nome del GAS"
+
+msgid "Name of the network"
+msgstr "Nome della rete"
+
+msgid ""
+"Details of who registers (first name, last name, name of the producer, GAS "
+"or network); then on to the entry creation page of that kind. Sign-in "
+"required."
+msgstr ""
+"Dati di chi si registra (nome, cognome, nome del produttore, GAS o rete); "
+"poi alla pagina di creazione della scheda di quel tipo. Serve l'accesso."
+
+msgid ""
+"Step 2 after the account: choose what to register (producer, GAS, network). "
+"Sign-in required."
+msgstr ""
+"Passo 2 dopo l'account: scegli cosa registrare (produttore, GAS, rete). "
+"Serve l'accesso."
+
+msgid ""
+"Old page, no longer needed: the entry is created with the registration and "
+"the entity only edits it. Do not use."
+msgstr ""
+"Vecchia pagina, non più necessaria: la scheda viene creata con la "
+"registrazione e il soggetto la modifica soltanto. Da non usare."
+
+msgid "Your entry in the catalogue"
+msgstr "La tua scheda in catalogo"
+
+msgid "Create a new entry"
+msgstr "Crea una nuova scheda"
+
+msgid "Registration"
+msgstr "Registrazione"
+
+msgid "Create an entry"
+msgstr "Creazione scheda"
+
+msgid "First choose what you register."
+msgstr "Prima scegli che cosa registri."
+
+msgid "Change"
+msgstr "Cambia"
+
+msgid "Optional"
+msgstr "Facoltativo"
+
+msgid ""
+"I also want to be a PGS reviewer (an administrator authorises the request)."
+msgstr ""
+"Voglio essere anche valutatore PGS (la richiesta è autorizzata da un "
+"amministratore)."
+
+msgid "Tax code (only for reviewers)"
+msgstr "Codice fiscale (solo per i valutatori)"
+
+msgid "Reviewer registration is not available yet."
+msgstr "La registrazione dei valutatori non è ancora disponibile."
+
+msgid "You are already a reviewer."
+msgstr "Sei già valutatore."
+
+msgid ""
+"Reviewer process, apart from the registration of the entity: first name, "
+"last name and tax code, then the request to an administrator. Sign-in "
+"required."
+msgstr ""
+"Processo del valutatore, separato dalla registrazione del soggetto: nome, "
+"cognome e codice fiscale, poi la richiesta a un amministratore. Serve "
+"l'accesso."
+
+msgid "Tools"
+msgstr "Strumenti"
+
+msgid "Choose what you register: producer, GAS or network."
+msgstr "Scegli cosa registri: produttore, GAS o rete."
+
+msgid "Create your entry or ask for an existing one to be assigned."
+msgstr "Crea la tua scheda o chiedi l'assegnazione di una esistente."
+
+msgid "Results:"
+msgstr "Risultati:"
+
+msgid "Entries with a name like yours. Choose yours:"
+msgstr "Schede con un nome simile al tuo. Scegli la tua:"
+
+msgid "Entry assignment"
+msgstr "Assegnazione scheda"
+
+msgid "My entity is already in the catalogue"
+msgstr "Il mio soggetto è già in catalogo"
+
+msgid "Request assignment"
+msgstr "Richiedi assegnazione"
+
+msgid ""
+"List of the entries with a name like the entity, with the button \"Request "
+"assignment\" (an administrator confirms). Sign-in required."
+msgstr ""
+"Elenco delle schede con un nome simile al soggetto, con il pulsante "
+"\"Richiedi assegnazione\" (conferma un amministratore). Serve l'accesso."
+
+msgid "Not in the list?"
+msgstr "Non è nell'elenco?"
+
+msgid "The entry has been assigned to you. Open it to check and complete it:"
+msgstr ""
+"La scheda ti è stata assegnata. Aprila per controllarla e completarla:"
+
+msgid "[%s] Entry assigned"
+msgstr "[%s] Scheda assegnata"
+
+msgid ""
+"%1$s (%2$s) chose \"%3$s\" as their entry: it is now assigned to them. To "
+"undo it, change the author in the entry."
+msgstr ""
+"%1$s (%2$s) ha scelto \"%3$s\" come sua scheda: ora è assegnata a lui. Per "
+"annullare, cambia l'autore nella scheda."
+
+msgid "Open this link to enter, check your data and take your entry over:"
+msgstr ""
+"Apri questo link per entrare, controllare i tuoi dati e prendere in carico "
+"la tua scheda:"
+
+msgid ""
+"The link works once and for one hour; you can ask for another from the "
+"Access page."
+msgstr ""
+"Il link vale una volta e per un'ora; puoi chiederne un altro dalla pagina "
+"Accesso."
+
+msgid "Invitations"
+msgstr "Inviti"
+
+msgid "Not invited"
+msgstr "Non invitati"
+
+msgid "Owner"
+msgstr "Proprietario"
+
+msgid "Administrators"
+msgstr "Amministratori"
+
+msgid "No entries."
+msgstr "Nessuna scheda."
+
+msgid "Send the invitation to the selected entries"
+msgstr "Invia l'invito alle schede selezionate"
+
+msgid "At most 500 entries are shown."
+msgstr "Sono mostrate al massimo 500 schede."
+
+msgid "Invitations sent: %d."
+msgstr "Inviti inviati: %d."
+
+msgid ""
+"The entries stay with the administrators. The invitation is an e-mail with a"
+" sign-in link (valid one hour, once) for the e-mail of the entry: whoever "
+"opens it creates his account and takes the entries with that e-mail over."
+msgstr ""
+"Le schede restano agli amministratori. L'invito è un'e-mail con un link di "
+"accesso (valido un'ora, una volta sola) per l'e-mail della scheda: chi lo "
+"apre crea il suo account e prende in carico le schede con quell'e-mail."
+
+msgid "Import and export data"
+msgstr "Import ed export dati"
+
+msgid "Subscribers and entities"
+msgstr "Iscritti e schede"
+
+msgid ""
+"Deletes ALL %d subscriber users and assigns their entities (and any other "
+"content) to the administrator. Administrators and editors are not touched. "
+"This cannot be undone: make a backup first."
+msgstr ""
+"Elimina TUTTI i %d utenti iscritti (subscriber) e assegna le loro schede (e "
+"ogni altro contenuto) all'amministratore. Amministratori ed editor non "
+"vengono toccati. Non si può annullare: fai prima un backup."
+
+msgid "I have a backup and I want to delete all subscribers"
+msgstr "Ho un backup e voglio eliminare tutti gli iscritti"
+
+msgid "Delete subscribers and assign entities to the administrator"
+msgstr "Elimina gli iscritti e assegna le schede all'amministratore"
+
+msgid ""
+"Subscribers deleted: %d. Their entities now belong to the administrator."
+msgstr ""
+"Iscritti eliminati: %d. Le loro schede ora appartengono all'amministratore."
+
+msgid "Nothing deleted: tick the confirmation box."
+msgstr "Nulla eliminato: spunta la casella di conferma."
+
+msgid "PGS reviewer registration"
+msgstr "Registrazione Valutatori PGS"
+
+msgid "Questionnaire entry and management"
+msgstr "Inserimento e gestione dell'autocertificazione"
+
+msgid "Questionnaires under evaluation"
+msgstr "Autocertificazioni in valutazione"
+
+msgid "No questionnaires under evaluation."
+msgstr "Nessuna autocertificazione in valutazione."
+
+msgid "Questionnaires are available once your entry is in the catalogue."
+msgstr ""
+"L'autocertificazione è disponibile quando la tua scheda è nel catalogo."
+
+msgid "Campaign entry and management"
+msgstr "Inserimento e gestione campagne"
+
+msgid "Campaigns entered"
+msgstr "Campagne inserite"
+
+msgid "Fundraiser entry and management"
+msgstr "Inserimento e gestione raccolte fondi"
+
+msgid "Fundraisers entered"
+msgstr "Raccolte fondi inserite"
+
+msgid "No donations yet."
+msgstr "Nessuna donazione."
+
+msgid "My messages"
+msgstr "I miei messaggi"
+
+msgid "Favourite entries"
+msgstr "Schede preferite"
+
+msgid "Preferences"
+msgstr "Preferenze"
+
+msgid "Submit an entry"
+msgstr "Invia Scheda"
+
+msgid "Production"
+msgstr "Produzione"
+
+msgid "Shops"
+msgstr "Negozi"
+
+msgid "Producer shop"
+msgstr "Negozio del produttore"
+
+msgid "GAS shop"
+msgstr "Negozio del GAS"
+
+msgid "Commerce"
+msgstr "Commercio"
+
+msgid "Collective buying"
+msgstr "Acquisto collettivo"
+
+msgid "Energy"
+msgstr "Energia"
+
+msgid "Network (RES/DES)"
+msgstr "Rete (RES/DES)"
+
+msgid "DES (solidarity economy district)"
+msgstr "DES (distretto di economia solidale)"
+
+msgid "RES (solidarity economy network)"
+msgstr "RES (rete di economia solidale)"
+
+#: includes/Functions.php
+msgid "Social gardens"
+msgstr "Orti sociali"
+
+#: includes/Functions.php
+msgid "Name of the social garden"
+msgstr "Nome dell'orto sociale"
+
+#: includes/Admin.php
+msgid "Generate missing types"
+msgstr "Genera i tipi mancanti"
+
+#: includes/Admin.php
+msgid ""
+"Creates only the catalogue types that do not exist yet; the others are left "
+"untouched."
+msgstr ""
+"Crea solo i tipi di catalogo che non esistono ancora; gli altri restano "
+"intatti."
+
+#: includes/Admin.php
+msgid "Add or update a profile (JSON)"
+msgstr "Aggiungi o aggiorna un profilo (JSON)"
+
+#: includes/Admin.php
+msgid "Profile file (profile.json)"
+msgstr "File del profilo (profile.json)"
+
+#: includes/Admin.php
+msgid "Profile ID"
+msgstr "ID del profilo"
+
+#: includes/Admin.php
+msgid ""
+"Letters, numbers and dashes. Leave empty to use the \"id\" inside the file. "
+"An ID that already exists (also a bundled one) is replaced by the uploaded "
+"file."
+msgstr ""
+"Lettere, numeri e trattini. Lascia vuoto per usare l'\"id\" presente nel "
+"file. Un ID già esistente (anche uno incluso nel plugin) viene sostituito "
+"dal file caricato."
+
+#: includes/Admin.php
+msgid "Translations (optional)"
+msgstr "Traduzioni (facoltative)"
+
+#: includes/Admin.php
+msgid ""
+"JSON object: English text => translation, for the current site language."
+msgstr ""
+"Oggetto JSON: testo inglese => traduzione, per la lingua corrente del sito."
+
+#: includes/Admin.php
+msgid ""
+"The profile is saved in wp-content/uploads/directorist-network/profiles/ and"
+" survives plugin updates. Then press Generate, or Generate missing types if "
+"the profile was already generated."
+msgstr ""
+"Il profilo viene salvato in wp-content/uploads/directorist-network/profiles/"
+" e resiste agli aggiornamenti del plugin. Poi premi Genera, oppure Genera i "
+"tipi mancanti se il profilo era già stato generato."
+
+#: includes/Admin.php
+msgid "Upload profile"
+msgstr "Carica profilo"
+
+#: includes/Admin.php
+msgid "uploaded"
+msgstr "caricato"
+
+#: includes/Admin.php
+msgid "Remove uploaded copy"
+msgstr "Rimuovi la copia caricata"
+
+#: includes/Admin.php
+msgid ""
+"Remove the uploaded copy of this profile? The bundled profile, if any, is "
+"used again. Catalogue types already generated are not deleted."
+msgstr ""
+"Rimuovere la copia caricata di questo profilo? Se esiste, viene di nuovo "
+"usato il profilo incluso nel plugin. I tipi di catalogo già generati non "
+"vengono eliminati."
+
+#: includes/Admin.php
+msgid "No valid file received (JSON, up to 512 KB)."
+msgstr "Nessun file valido ricevuto (JSON, fino a 512 KB)."
+
+#: includes/Admin.php
+msgid ""
+"The file is not a valid profile: it needs a non-empty \"types\" list, each "
+"type with a \"label\"."
+msgstr ""
+"Il file non è un profilo valido: serve un elenco \"types\" non vuoto, con un"
+" \"label\" per ogni tipo."
+
+#: includes/Admin.php
+msgid "Choose a profile ID (letters, numbers, dashes)."
+msgstr "Scegli un ID del profilo (lettere, numeri, trattini)."
+
+#: includes/Admin.php
+msgid "Could not write to the uploads folder."
+msgstr "Impossibile scrivere nella cartella uploads."
+
+#: includes/Admin.php
+msgid "Profile saved: %s."
+msgstr "Profilo salvato: %s."
+
+#: includes/Admin.php
+msgid "Translations saved (%s)."
+msgstr "Traduzioni salvate (%s)."
+
+#: includes/Admin.php
+msgid "The translations file is not valid JSON; it was ignored."
+msgstr "Il file di traduzioni non è un JSON valido: ignorato."
+
+#: includes/Admin.php
+msgid "Uploaded copy removed: %s."
+msgstr "Copia caricata rimossa: %s."
+
+#: includes/ShortcodeIndex.php
+msgid "Data"
+msgstr "Dati"
+
+#: includes/ShortcodeIndex.php
+msgid "Taxonomies"
+msgstr "Tassonomie"
+
+#: includes/ShortcodeIndex.php
+msgid "Communications"
+msgstr "Comunicazioni"
+
+#: includes/ShortcodeIndex.php
+msgid "Import territories"
+msgstr "Importa territori"
+
+#: includes/Admin.php
+msgid "Initial setup"
+msgstr "Configurazione iniziale"
+
+#: includes/Admin.php
+msgid "Listing template"
+msgstr "Template della scheda"
+
+#: includes/Sidebar.php
+msgid "Template used by the listing page:"
+msgstr "Template usato dalla scheda:"
+
+#: includes/Admin.php
+msgid "Profile generation"
+msgstr "Generazione profilo"
+
+#: includes/Admin.php
+msgid "Profile creation"
+msgstr "Creazione profilo"
+
+#: includes/Community.php
+msgid "All suggested edits"
+msgstr "Tutte le modifiche suggerite"
+
+#: includes/Community.php
+msgid "Date"
+msgstr "Data"
+
+#: includes/Functions.php
+msgid "Distributors"
+msgstr "Distributori"
+
+#: includes/Functions.php
+msgid "Name of the distributor"
+msgstr "Nome del distributore"
+
+#: includes/Admin.php
+msgid "Change the catalogue type of entries"
+msgstr "Cambia il tipo di catalogo dei soggetti"
+
+#: includes/Admin.php
+msgid ""
+"Moves all the entries that have the chosen roles or categories to another "
+"catalogue type (for example from Producers to Distributors). Fields that the"
+" new type does not have stay stored but are not shown. Preview first, and "
+"back up before applying."
+msgstr ""
+"Sposta tutti i soggetti che hanno i ruoli o le categorie scelti in un altro "
+"tipo di catalogo (per esempio da Produttori a Distributori). I campi che il "
+"nuovo tipo non ha restano salvati ma non vengono mostrati. Fai prima "
+"l'anteprima e un backup prima di applicare."
+
+#: includes/Admin.php
+msgid "Categories (hold Ctrl or Cmd to choose several)"
+msgstr "Categorie (tieni premuto Ctrl o Cmd per sceglierne più di una)"
+
+#: includes/Admin.php
+msgid "New catalogue type"
+msgstr "Nuovo tipo di catalogo"
+
+#: includes/Admin.php
+msgid "Include the subcategories of the chosen categories"
+msgstr "Includi le sottocategorie delle categorie scelte"
+
+#: includes/Admin.php
+msgid "Apply"
+msgstr "Applica"
+
+#: includes/Admin.php
+msgid "Change the catalogue type of these entries? Back up first."
+msgstr "Cambiare il tipo di catalogo di questi soggetti? Fai prima un backup."
+
+#: includes/Admin.php
+msgid "Choose at least one role or category and the new catalogue type."
+msgstr "Scegli almeno un ruolo o una categoria e il nuovo tipo di catalogo."
+
+#: includes/Admin.php
+msgid "Moved to \"%2$s\": %1$d entries."
+msgstr "Spostati in \"%2$s\": %1$d soggetti."
+
+#: includes/Admin.php
+msgid ""
+"Preview: %1$d entries would move to \"%2$s\" (first 30 listed). Nothing was "
+"changed."
+msgstr ""
+"Anteprima: %1$d soggetti passerebbero a \"%2$s\" (primi 30 elencati). Non è "
+"stato modificato nulla."
+
+#: includes/Admin.php
+msgid "Roles (hold Ctrl or Cmd to choose several)"
+msgstr "Ruoli (tieni premuto Ctrl o Cmd per sceglierne più di uno)"
+
+#: includes/Admin.php
+msgid ""
+"Choose roles, categories or both: the entries that have any of them are "
+"moved."
+msgstr ""
+"Scegli ruoli, categorie o entrambi: vengono spostati i soggetti che hanno "
+"almeno uno dei valori scelti."
+
+#: includes/Admin.php
+msgid ""
+"After saving, the fields of the new type are shown. Fields that the new type"
+" does not have stay stored but hidden. Roles and categories do not change."
+msgstr ""
+"Dopo il salvataggio vengono mostrati i campi del nuovo tipo. I campi che il "
+"nuovo tipo non ha restano salvati ma nascosti. Ruoli e categorie non "
+"cambiano."
+
+#: includes/Functions.php
+msgid "Distribution"
+msgstr "Distribuzione"
+
+msgid "Adherents"
+msgstr "Aderenti"
+
+msgid "No adherents yet."
+msgstr "Nessun aderente."
+
+msgid "Campaign"
+msgstr "Campagna"
+
+msgid "Join the campaign"
+msgstr "Aderisci alla campagna"
+
+msgid "FormGent form to join a campaign (campaign sheets only)."
+msgstr "Modulo FormGent per aderire a una campagna (solo schede campagna)."
+
+msgid "FormGent form shortcode:"
+msgstr "Shortcode del modulo FormGent:"
+
+msgid ""
+"Paste the shortcode copied from FormGent. You can use {campaign_id}, "
+"{campaign_title} and {campaign_url} in it."
+msgstr ""
+"Incolla lo shortcode copiato da FormGent. Puoi usare {campaign_id}, "
+"{campaign_title} e {campaign_url}."
+
+msgid ""
+"Do not change entities already present: only add the relations (e.g. the "
+"campaign)"
+msgstr ""
+"Non modificare i soggetti già presenti: aggiungi solo i collegamenti (es. la"
+" campagna)"
+
+msgid ""
+"Adherents: none found for entry %1$d (links stored: %2$d). Only visible to "
+"admins."
+msgstr ""
+"Aderenti: nessuno trovato per la scheda %1$d (collegamenti salvati: %2$d). "
+"Visibile solo agli amministratori."
+
+msgid "Campaign adherents"
+msgstr "Aderenti della campagna"
+
+msgid ""
+"Adherents of the campaign as list, cards or map (campaign sheets only)."
+msgstr ""
+"Aderenti della campagna in elenco, schede o mappa (solo schede campagna)."
+
+msgid "No settings: shows the adherents of the campaign being viewed."
+msgstr "Nessuna impostazione: mostra gli aderenti della campagna aperta."
+
+msgid "Active campaigns"
+msgstr "Campagne attive"
+
+msgid "Expired campaigns"
+msgstr "Campagne scadute"
+
+msgid ""
+"%d adherents are not published: only you see them. Publish them to show them"
+" to everyone."
+msgstr ""
+"%d aderenti non sono pubblicati: li vedi solo tu. Pubblicali per mostrarli a"
+" tutti."
+
+msgid "Adherents map"
+msgstr "Mappa degli aderenti"
+
+msgid "Source price profile"
+msgstr "Scheda Prezzo sorgente"
+
+msgid "Source price profiles"
+msgstr "Schede Prezzo sorgente"
+
+msgid ""
+"What the source price profile is, how it is filled in and how to read it."
+msgstr "Cos'è la Scheda Prezzo sorgente, come si compila e come si legge."
+
+msgid "Participatory evaluation form"
+msgstr "Scheda Valutazione Partecipativa"
+
+msgid "CER"
+msgstr "CER"
+
+msgid "CSA"
+msgstr "CSA"
+
+msgid "Cohousing"
+msgstr "Cohousing"
+
+msgid "DES/RES"
+msgstr "DES/RES"
+
+msgid "Other networks"
+msgstr "Altre reti"
+
+msgid "Clear demo data"
+msgstr "Cancella dati di prova"
+
+msgid "Delete all demo entries and users?"
+msgstr "Eliminare tutte le schede e gli utenti di prova?"
+
+msgid "Demo data is already loaded: clear it first."
+msgstr "I dati di prova sono già caricati: cancellali prima."
+
+msgid "Demo data loaded: %1$d entries, %2$d users."
+msgstr "Dati di prova caricati: %1$d schede, %2$d utenti."
+
+msgid "Demo data removed: %1$d entries, %2$d users."
+msgstr "Dati di prova rimossi: %1$d schede, %2$d utenti."
+
+msgid "Directorist is not active."
+msgstr "Directorist non è attivo."
+
+msgid ""
+"Loaded now: %1$d entries, %2$d users. 5 producers, 2 GAS, 1 network, 1 "
+"garden, 3 producer users, 2 reviewers (with the Solidaros reviewer role)."
+msgstr ""
+"Caricati ora: %1$d schede, %2$d utenti. 5 produttori, 2 GAS, 1 rete, 1 orto,"
+" 3 utenti produttori, 2 valutatori (con il ruolo valutatore di Solidaros)."
+
+msgid "Logins (shown once, write them down):"
+msgstr "Accessi (mostrati una sola volta, annotali):"
+
+msgid "GAS / network you belong to"
+msgstr "GAS / rete a cui appartieni"
+
+msgid "Town"
+msgstr "Città"
+
+msgid "User authorisation"
+msgstr "Abilitazione Utenti"
+
+msgid "Producer and reviewer role requests are approved in Solidaros."
+msgstr ""
+"Le richieste di ruolo produttore e valutatore si approvano in Solidaros."
+
+msgid "PGS guaranteed"
+msgstr "Garantito PGS"
+
+msgid "Source price (declared by the producer)"
+msgstr "Prezzo sorgente (dichiarato dal produttore)"
+
+msgid "Shows the entity data."
+msgstr "Mostra i dati del soggetto."
+
+msgid "Type, legal form, where, phone, website of the entity."
+msgstr "Tipo, forma giuridica, sede, telefono, sito web del soggetto."
+
+msgid ""
+"Social report page: shortcode provided by Solidaros (e.g. [so-"
+"socialbalance])"
+msgstr ""
+"Pagina del bilancio sociale: shortcode fornito da Solidaros (es. [so-"
+"socialbalance])"
+
+msgid "Last update: %s"
+msgstr "Ultimo aggiornamento: %s"
+
+msgid "Feeds read: %d articles in the cache."
+msgstr "Feed letti: %d articoli in cache."
+
+msgid "No news feeds yet: add them in Catalogue > Network news."
+msgstr "Nessun feed di news: aggiungili in Catalogo > News di rete."
+
+msgid "Menu \"Directory\" already exists; News link added."
+msgstr "Il menu \"Directory\" esiste già; aggiunto il link alle News."
+
+msgid "link"
+msgstr "link"
+
+msgid "waiting"
+msgstr "in attesa"
+
+msgid ""
+"Articles are not saved on the site: only title, link, short excerpt and "
+"image address are kept in a temporary cache, renewed every hour. Each card "
+"opens the article on the original site."
+msgstr ""
+"Gli articoli non sono salvati sul sito: solo titolo, link, breve estratto e "
+"indirizzo dell'immagine."
+
+msgid ""
+"Feeds, one per line: \"Name | https://site/feed/\" or just the address. "
+"Lines starting with # are ignored."
+msgstr ""
+"Feed, uno per riga: \"Nome | https://sito/feed/\" oppure solo l'indirizzo. "
+"Le righe che iniziano con # sono ignorate."
+
+msgid "PGS reviewer"
+msgstr "Valutatore PGS"
+
+msgid "— choose —"
+msgstr "— scegli —"
+
+msgid ""
+"Old registration step, now an alias of the dashboard: personal data and the "
+"choice of what to register are inside the dashboard (Personal data, My "
+"entry). Sign-in required."
+msgstr ""
+"Passo 2 dopo l'account: scegli cosa registrare (produttore, GAS, rete… "
+"oppure Valutatore PGS, con il suo modulo). Serve l'accesso."
+
+msgid "Personal data"
+msgstr "Dati personali"
+
+msgid "Entry creation"
+msgstr "Creazione scheda"
+
+msgid "Territories page: regions, provinces, cities and their entities."
+msgstr "Pagina Territori: regioni, province, comuni e i loro soggetti."
+
+msgid ""
+"Form to register a producer, a GAS, a network or a distributor (one page per"
+" kind; sign-in required)."
+msgstr ""
+"Modulo per registrare un produttore, un GAS, una rete o un distributore (una"
+" pagina per tipo; serve l'accesso)."
+
+msgid ""
+"Solidaros: social report form (sign-in and permissions handled by "
+"Solidaros)."
+msgstr ""
+"Solidaros: modulo del Bilancio sociale (accesso e permessi gestiti da "
+"Solidaros)."
+
+msgid "Solidaros: company sheet form."
+msgstr "Solidaros: modulo della Scheda azienda."
+
+msgid "Solidaros: product sheets form."
+msgstr "Solidaros: modulo delle Schede Prodotti."
+
+msgid "Solidaros: source price sheet form."
+msgstr "Solidaros: modulo della Scheda Prezzo sorgente."
+
+msgid "Solidaros: PGS evaluation (process, requests, reviewer work area)."
+msgstr ""
+"Solidaros: Scheda Valutazione Partecipativa (processo, richieste, area di "
+"lavoro del valutatore)."
+
+msgid ""
+"Solidaros: my documents and questionnaires under evaluation (already inside "
+"the personal area)."
+msgstr ""
+"Solidaros: i miei documenti e i questionari in valutazione (già dentro "
+"l'area personale)."
+
+msgid "First complete your personal data."
+msgstr "Completa prima i tuoi dati personali."
+
+msgid "Go to Personal data"
+msgstr "Vai a Dati personali"
+
+msgid "Your personal data"
+msgstr "I tuoi dati personali"
+
+msgid ""
+"Fill them in once: they are used for your entry, the questionnaires and the "
+"PGS evaluation."
+msgstr ""
+"Compilali una volta sola: servono per la tua scheda, i questionari e la "
+"valutazione PGS."
+
+msgid "Save and continue"
+msgstr "Salva e continua"
+
+msgid ""
+"Choose what you register and its name: then you create the entry, or ask for"
+" the one already in the catalogue."
+msgstr ""
+"Scegli cosa registri e il suo nome: poi crei la scheda oppure chiedi quella "
+"già presente nel catalogo."
+
+msgid ""
+"Access (sign-in and registration): e-mail and consent, then the link that "
+"signs in. Registered people just enter their e-mail; everyone lands in the "
+"dashboard (Personal data, then My entry)."
+msgstr ""
+"Accesso (accesso e registrazione): email e consenso, poi il link che fa "
+"entrare. Chi è già registrato inserisce solo l'email; tutti arrivano in "
+"bacheca (Dati personali, poi La mia scheda)."
+
+msgid ""
+"Old registration step, now an alias of the dashboard: personal data and the "
+"choice of what to register are inside the dashboard (Personal data, My "
+"entry). Sign-in required."
+msgstr ""
+"Vecchio passo di registrazione, ora alias della bacheca: i dati personali e "
+"la scelta di cosa registrare sono in bacheca (Dati personali, La mia "
+"scheda). Richiede l'accesso."
+
+msgid ""
+"Old page, no longer needed: the entry is created with the registration and "
+"the entity only edits it. Do not use."
+msgstr ""
+"Vecchia pagina, non più necessaria: la scheda viene creata con la "
+"registrazione e il soggetto la modifica soltanto. Da non usare."
+
+msgid ""
+"Directorist: the add-listing form, used to edit the entry (the entry is "
+"created with the registration)."
+msgstr ""
+"Directorist: modulo di inserzione, usato per modificare la scheda (la scheda"
+" viene creata con la registrazione)."
+
+msgid ""
+"Directorist: sign-in and registration page. Not to be used: visitors are "
+"sent to the DN access page."
+msgstr ""
+"Directorist: pagina di accesso e registrazione. Da non usare: i visitatori "
+"sono mandati alla pagina di accesso di DN."
+
+msgid ""
+"Directorist: the user dashboard, replaced by [dirnet_my_space] when "
+"Directorist Network is active."
+msgstr ""
+"Directorist: bacheca utente, sostituita da [dirnet_my_space] quando "
+"Directorist Network è attivo."
+
+msgid "Directorist: all listings page (the Territories page uses it)."
+msgstr ""
+"Directorist: pagina di tutte le inserzioni (la pagina Territori la usa)."
+
+msgid "System page"
+msgstr "Pagina di sistema"
+
+msgid "Directorist: add listing"
+msgstr "Directorist: aggiungi inserzione"
+
+msgid "Directorist: dashboard (replaced by [dirnet_my_space])"
+msgstr "Directorist: bacheca (sostituita da [dirnet_my_space])"
+
+msgid "Directorist: sign-in (leads to DN access page)"
+msgstr "Directorist: accesso (porta alla pagina di accesso DN)"
+
+msgid "Directorist: registration (leads to DN access page)"
+msgstr "Directorist: registrazione (porta alla pagina di accesso DN)"
+
+msgid "Directorist: all listings"
+msgstr "Directorist: tutte le inserzioni"
+
+msgid "Directorist: all categories"
+msgstr "Directorist: tutte le categorie"
+
+msgid "Directorist: all locations"
+msgstr "Directorist: tutte le località"
+
+msgid "shortcode missing in the page"
+msgstr "shortcode mancante nella pagina"
+
+msgid "Required"
+msgstr "Obbligatoria"
+
+msgid "Solidaros – %s"
+msgstr "Solidaros – %s"
+
+msgid "Directorist – %s"
+msgstr "Directorist – %s"
+
+msgid "Add listing"
+msgstr "Aggiungi inserzione"
+
+msgid "Dashboard"
+msgstr "Bacheca"
+
+msgid "Sign-in"
+msgstr "Accesso"
+
+msgid "All listings"
+msgstr "Tutte le inserzioni"
+
+msgid "All locations"
+msgstr "Tutte le località"
+
+msgid ""
+"The data given at registration: you can change them here. They are used for "
+"your entry, the questionnaires and the PGS evaluation."
+msgstr ""
+"I dati forniti in registrazione: puoi modificarli qui. Servono per la tua "
+"scheda, i questionari e la valutazione PGS."
+
+msgid "I am already registered"
+msgstr "Sono già registrato"
+
+msgid "I am registering now"
+msgstr "Mi registro adesso"
+
+msgid ""
+"Registration: all the personal data (name, tax code, town, phone, e-mail) "
+"and consent; a link by e-mail confirms it and opens the dashboard. People "
+"not yet registered are sent here from the access page."
+msgstr ""
+"Registrazione: tutti i dati personali (nome, codice fiscale, comune, "
+"telefono, email) e consenso; un link via email la conferma e apre la "
+"bacheca. Chi non è registrato viene mandato qui dalla pagina di accesso."
+
+msgid ""
+"Access: e-mail and consent, then the link that signs in. People not yet "
+"registered are sent to the Registration page; everyone lands in the "
+"dashboard."
+msgstr ""
+"Accesso: email e consenso, poi il link che fa entrare. Chi non è registrato "
+"viene mandato alla pagina Registrazione; tutti arrivano in bacheca."
+
+msgid ""
+"Enter your e-mail to sign in: we send you a link, click it to enter. If you "
+"are not registered yet, you will be taken to the registration."
+msgstr ""
+"Inserisci la tua email per accedere: ti inviamo un link, cliccalo per "
+"entrare. Se non sei ancora registrato, sarai portato alla registrazione."
+
+msgid "I accept the Privacy Policy"
+msgstr "Accetto la Privacy Policy"
+
+msgid "What are you registering as?"
+msgstr "Come ti registri?"
+
+msgid "Producer"
+msgstr "Produttore"
+
+msgid "Network"
+msgstr "Rete"
+
+msgid "Distributor"
+msgstr "Distributore"
+
+msgid "VAT number / entity tax code"
+msgstr "Partita IVA / codice fiscale del soggetto"
+
+msgid ""
+"You are registered as a PGS reviewer: your questionnaires are in My "
+"questionnaires."
+msgstr ""
+"Sei registrato come valutatore PGS: i questionari da valutare sono in I miei"
+" questionari."
+
+msgid ""
+"Your entity is already in the catalogue? Ask for the entry to be assigned to"
+" you."
+msgstr ""
+"Il tuo soggetto è già nel catalogo? Chiedi che la scheda ti venga assegnata."
+
+msgid "Your access code"
+msgstr "Il tuo codice di accesso"
+
+msgid "Your code is: %s"
+msgstr "Il tuo codice è: %s"
+
+msgid ""
+"Enter it in the page where you asked for it. It is valid for 10 minutes. If "
+"you did not ask for it, ignore this e-mail."
+msgstr ""
+"Inseriscilo nella pagina dove lo hai richiesto. Vale 10 minuti. Se non l'hai"
+" richiesto, ignora questa email."
+
+msgid "Wrong code. Try again."
+msgstr "Codice non corretto. Riprova."
+
+msgid "Code expired. Ask for a new one."
+msgstr "Codice scaduto. Richiedine uno nuovo."
+
+msgid "We sent a 6-digit code to your e-mail. Enter it here."
+msgstr "Ti abbiamo inviato un codice di 6 cifre per email. Inseriscilo qui."
+
+msgid "Code"
+msgstr "Codice"
+
+msgid "Confirm"
+msgstr "Conferma"
+
+msgid ""
+"Enter your e-mail to sign in: we send you a code, type it here. If you are "
+"not registered yet, you will be taken to the registration."
+msgstr ""
+"Inserisci la tua email per accedere: ti inviamo un codice, scrivilo qui. Se "
+"non sei ancora registrato, sarai portato alla registrazione."
+
+msgid "To register, first enter your e-mail and the code we send you."
+msgstr ""
+"Per registrarti, inserisci prima la tua email e il codice che ti inviamo."
+
+msgid "New password"
+msgstr "Nuova password"
+
+msgid "leave empty to keep the current one"
+msgstr "lascia vuoto per mantenere quella attuale"
+
+msgid "Search form"
+msgstr "Modulo di ricerca"
+
+msgid "Search results"
+msgstr "Risultati della ricerca"
+
+msgid "Single category"
+msgstr "Categoria singola"
+
+msgid "Single tag"
+msgstr "Tag singolo"
+
+msgid "Single location"
+msgstr "Località singola"
+
+msgid "Author profile"
+msgstr "Profilo autore"
+
+msgid "Directorist Network – %s (not assigned)"
+msgstr "Directorist Network – %s (da assegnare)"
+
+msgid "Evaluation territory (provinces)"
+msgstr "Territorio di valutazione (province)"
+
+msgid "Can start campaigns"
+msgstr "Può creare campagne"
+
+msgid "I am a producer"
+msgstr "Sono un produttore"
+
+msgid "I am a distributor"
+msgstr "Sono un distributore"
+
+msgid "I represent a GAS"
+msgstr "Rappresento un GAS"
+
+msgid "I represent a network"
+msgstr "Rappresento una Rete"
+
+msgid "I propose a campaign"
+msgstr "Propongo una campagna"
+
+msgid "Promoting organisation"
+msgstr "Organizzazione promotrice"
+
+msgid "Title of the campaign"
+msgstr "Titolo della campagna"
+
+msgid "What the campaign is about"
+msgstr "Di cosa tratta la campagna"
+
+msgid ""
+"An administrator reviews the proposal and enables you to publish campaigns."
+msgstr ""
+"Un amministratore esamina la proposta e ti abilita a pubblicare campagne."
+
+msgid "Campaign proposed at registration"
+msgstr "Campagna proposta in registrazione"
+
+msgid "I am a PGS reviewer"
+msgstr "Sono un valutatore PGS"
+
+msgid ""
+"Your proposal is being reviewed by an administrator, who will enable you to "
+"publish campaigns."
+msgstr ""
+"La tua proposta è in esame da parte di un amministratore, che ti abiliterà a"
+" pubblicare campagne."
+
+msgid "VAT number or tax code of the entity"
+msgstr "P.IVA o C.F. dell'ente"
+
+msgid "View as: %s"
+msgstr "Vedi come: %s"
+
+msgid "View as…"
+msgstr "Vedi come…"
+
+msgid "Exit (administrator)"
+msgstr "Esci (amministratore)"
+
+msgid "Viewing as: %s"
+msgstr "Stai vedendo come: %s"
+
+msgid "Import repairs"
+msgstr "Riparazioni dopo l'import"
+
+msgid "Repairs after an import: relations, merge, undo, change type"
+msgstr ""
+"Riparazioni dopo un import: relazioni, unione, annullamento, cambio tipo"
+
+msgid "Merge two entries"
+msgstr "Unisci due schede"
+
+msgid ""
+"For a duplicate: the data of the duplicate is added to the entry you keep, "
+"and the duplicate is closed. The merge can be undone below."
+msgstr ""
+"Per un doppione: i dati del doppione si aggiungono alla scheda che tieni e "
+"il doppione viene chiuso. L'unione si può annullare qui sotto."
+
+msgid "ID of the duplicate"
+msgstr "ID del doppione"
+
+msgid "ID of the entry to keep"
+msgstr "ID della scheda da tenere"
+
+msgid "Merges that can be undone"
+msgstr "Unioni che si possono annullare"
+
+msgid "None."
+msgstr "Nessuna."
+
+msgid "Undo the merge"
+msgstr "Annulla l'unione"
+
+msgid "Data repair"
+msgstr "Riparazione Dati"
+
+msgid "Change the type of list of the entities"
+msgstr "Cambia il tipo di elenco dei soggetti"
+
+msgid "Import entries"
+msgstr "Importazione schede"
+
+msgid "Export entries"
+msgstr "Esportazione schede"
+
+msgid "Categories import"
+msgstr "Importazione categorie"
+
+msgid "Categories export"
+msgstr "Esportazione categorie"
+
+msgid "Price list import"
+msgstr "Importazione Listino"
+
+msgid "Producers load and keep up to date their price list here."
+msgstr "Qui i produttori caricano e tengono aggiornato il loro listino."
+
+msgid ""
+"Solidaros: Tools page, one button for each tool (the description is in the "
+"page of the tool)."
+msgstr ""
+"Solidaros: pagina Strumenti, un pulsante per ogni strumento (la descrizione "
+"è nella pagina dello strumento)."
+
+msgid ""
+"Solidaros: price list import of the producer (CSV or by hand); visitors see "
+"the description and the restricted access button."
+msgstr ""
+"Solidaros: importazione del listino del produttore (CSV o a mano); i "
+"visitatori vedono la descrizione e il pulsante di accesso riservato."
+
+msgid "My price lists"
+msgstr "I miei listini"
+
+msgid ""
+"Campaigns are the initiatives promoted by the network: petitions, "
+"fundraisers and mobilisations. Everyone can read them; proposing and "
+"publishing a campaign is reserved to the users an administrator enables, who"
+" find it in their dashboard."
+msgstr ""
+"Le campagne sono le iniziative promosse dalla rete: petizioni, raccolte "
+"fondi e mobilitazioni. Tutti possono leggerle; proporre e pubblicare una "
+"campagna è riservato agli utenti abilitati da un amministratore, che la "
+"trovano nella loro bacheca."
+
+msgid "Restricted access"
+msgstr "Accesso riservato"
+
+msgid ""
+"Registration and sign-in are reserved to producers, distributors, GAS, "
+"networks, campaign promoters and PGS reviewers. Enter your e-mail: we will "
+"send you a code to register or sign in."
+msgstr ""
+"La registrazione e l'accesso sono riservati a produttori, distributori, GAS,"
+" reti, promotori di campagne e valutatori PGS. Inserisci la tua email: ti "
+"invieremo un codice per registrarti o accedere."
+
+msgid "Guided form"
+msgstr "Compilazione guidata"
+
+msgid "You have joined the campaign."
+msgstr "Hai aderito alla campagna."
+
+msgid "Your adhesion has been withdrawn."
+msgstr "La tua adesione è stata ritirata."
+
+msgid "Could not change the adhesion."
+msgstr "Impossibile modificare l'adesione."
+
+msgid "Sign in to join this campaign"
+msgstr "Accedi per aderire a questa campagna"
+
+msgid "Withdraw the adhesion of %s"
+msgstr "Ritira l'adesione di %s"
+
+msgid "Join the campaign as %s"
+msgstr "Aderisci alla campagna come %s"
+
+msgid "To join on behalf of this entity, sign in as its representative."
+msgstr "Per aderire a nome di questo soggetto accedi come suo referente."
+
+msgid "Entity not found."
+msgstr "Soggetto non trovato."
+
+msgid "Register to join"
+msgstr "Registrati per aderire"
+
+msgid "Join this campaign"
+msgstr "Aderisci a questa campagna"
+
+msgid "Name of your entity"
+msgstr "Nome del tuo soggetto"
+
+msgid "Start typing the name…"
+msgstr "Inizia a scrivere il nome…"
+
+msgid "Confirm the adhesion"
+msgstr "Conferma l'adesione"
+
+msgid "already an adherent"
+msgstr "già aderente"
+
+msgid ""
+"Not registered yet? You can register on the next page, with your e-mail."
+msgstr ""
+"Non sei ancora registrato? Ti registri nella pagina successiva, con la tua "
+"e-mail."
+
+msgid "To join you need the entry of your entity."
+msgstr "Per aderire serve la scheda del tuo soggetto."
+
+msgid "Back to the campaign to join"
+msgstr "Torna alla campagna per aderire"
+
+msgid "Is one of these your entity?"
+msgstr "Una di queste è la tua realtà?"
+
+msgid ""
+"These entries may be yours. Choose one: your registration data will replace "
+"the ones in the entry. If none is yours, a new entry is created."
+msgstr ""
+"Queste schede potrebbero essere tue. Scegline una: i dati di registrazione "
+"sostituiranno quelli presenti nella scheda. Se nessuna è tua, viene creata "
+"una nuova scheda."
+
+msgid "None of these: create a new entry"
+msgstr "Nessuna di queste: crea una nuova scheda"
+
+msgid "Remove campaigns and news"
+msgstr "Elimina campagne e notizie"
+
+msgid ""
+"Campaigns and news are no longer part of the plugin. This deletes what is "
+"left of them on the site. It cannot be undone: make a backup first."
+msgstr ""
+"Campagne e notizie non fanno più parte del plugin. Questo elimina ciò che ne"
+" resta sul sito. Non si può annullare: fai prima un backup."
+
+msgid "Nothing left to remove."
+msgstr "Non resta nulla da eliminare."
+
+msgid "Campaign entries: %d (permanently deleted)"
+msgstr "Schede campagna: %d (eliminate definitivamente)"
+
+msgid "Adhesion links and campaign data stored in the entries: %d fields"
+msgstr "Collegamenti di adesione e dati di campagna nelle schede: %d campi"
+
+msgid "Pages of campaigns and news (moved to the trash): %d"
+msgstr "Pagine di campagne e notizie (spostate nel cestino): %d"
+
+msgid ""
+"Users with a campaign proposal or the campaign permission: %d (the accounts "
+"stay)"
+msgstr ""
+"Utenti con proposta di campagna o permesso campagne: %d (gli account "
+"restano)"
+
+msgid "News: feeds, cache and schedule"
+msgstr "Notizie: feed, cache e pianificazione"
+
+msgid "News: nothing"
+msgstr "Notizie: nulla"
+
+msgid "I have a backup and I want to delete these data"
+msgstr "Ho un backup e voglio eliminare questi dati"
+
+msgid "Delete campaigns and news"
+msgstr "Elimina campagne e notizie"
+
+msgid "Campaign entries deleted: %d"
+msgstr "Schede campagna eliminate: %d"
+
+msgid "There are more campaign entries: run the deletion again."
+msgstr "Ci sono altre schede campagna: ripeti l'eliminazione."
+
+msgid "Pages moved to the trash: %d"
+msgstr "Pagine spostate nel cestino: %d"
+
+msgid "News: feeds, cache and schedule removed."
+msgstr "Notizie: feed, cache e pianificazione rimossi."
+
+msgid ""
+"The catalogue type \"Campaigns\" stays in Directorist: delete it in "
+"Directorist > Directory Builder if you want."
+msgstr ""
+"Il tipo di catalogo \"Campagne\" resta in Directorist: eliminalo da "
+"Directorist > Directory Builder se vuoi."
+
+msgid "Back to the page you came from"
+msgstr "Torna alla pagina da cui vieni"
+
+msgid ""
+"Also delete the social gardens (%d entries): they are no longer a type of "
+"the plugin"
+msgstr ""
+"Elimina anche gli orti sociali (%d schede): non sono più un tipo del plugin"
+
+msgid "Social gardens deleted: %d"
+msgstr "Orti sociali eliminati: %d"
+
+msgid ""
+"The catalogue types \"Campaigns\" and \"Social gardens\" stay in "
+"Directorist: delete them in Directorist > Directory Builder if you want."
+msgstr ""
+"I tipi di catalogo \"Campagne\" e \"Orti sociali\" restano in Directorist: "
+"eliminali da Directorist > Directory Builder se vuoi."
+
+msgid "Address of the entries"
+msgstr "Indirizzo delle schede"
+
+msgid ""
+"Changes the first part of the address of every entry (for example "
+"/directory/networks/name/ becomes /catalogo/networks/name/). The old "
+"addresses keep working: they are redirected to the new ones."
+msgstr ""
+"Cambia la prima parte dell'indirizzo di ogni scheda (per esempio "
+"/directory/reti/nome/ diventa /catalogo/reti/nome/). I vecchi indirizzi "
+"continuano a funzionare: sono rimandati ai nuovi."
+
+msgid "Example now: %s"
+msgstr "Esempio ora: %s"
+
+msgid "Base of the address"
+msgstr "Base dell'indirizzo"
+
+msgid "Change the address"
+msgstr "Cambia l'indirizzo"
+
+msgid "Address not changed."
+msgstr "Indirizzo non cambiato."
+
+msgid "Address changed: /%1$s/ → /%2$s/. The old addresses are redirected."
+msgstr ""
+"Indirizzo cambiato: /%1$s/ → /%2$s/. I vecchi indirizzi sono rimandati ai "
+"nuovi."
+
+msgid "If an entry does not open, save Settings → Permalinks once."
+msgstr "Se una scheda non si apre, salva una volta Impostazioni → Permalink."
+
+msgid "Kind of business"
+msgstr "Tipo di azienda"
+
+msgid "Farm (self-certification: all questionnaires)"
+msgstr "Azienda agricola (Autocertificazione: tutti i questionari)"
+
+msgid "Other business (self-certification: social balance only)"
+msgstr "Altra azienda (Autocertificazione: solo Bilancio sociale)"
+
+msgid "Farms only."
+msgstr "Solo aziende agricole."
+
+msgid "Subject data"
+msgstr "Dati del soggetto"
+
+msgid "Self-certification"
+msgstr "Autocertificazione"
+
+msgid "Self-certification: present"
+msgstr "Autocertificazione: presente"
+
+msgid "Self-certification: not present"
+msgstr "Autocertificazione: non presente"
+
+msgid "Social balance"
+msgstr "Bilancio sociale"
+
+msgid "Participatory self-certification"
+msgstr "Autocertificazione partecipativa"
+
+msgid "Company form"
+msgstr "Scheda Azienda"
+
+msgid "Product form: %s"
+msgstr "Scheda Prodotti: %s"
+
+msgid "Source price form"
+msgstr "Scheda Prezzo sorgente"
+
+msgid "Participatory self-certification with evaluation"
+msgstr "Autocertificazione partecipativa con Valutazione"
+
+msgid "Shows the self-certification: present (with its links) or not present."
+msgstr ""
+"Mostra l'autocertificazione: presente (con i suoi link) o non presente."
+
+msgid ""
+"Self-certification of the entity from Solidaros: present or not present, "
+"with links to its questionnaires."
+msgstr ""
+"Autocertificazione del soggetto da Solidaros: presente o non presente, con i"
+" link ai questionari."
+
+msgid "Self-certification: in progress"
+msgstr "Autocertificazione: in corso di redazione"
+
+msgid "Other questionnaires: in progress"
+msgstr "Altri questionari: in corso di redazione"
+
+msgid "To complete"
+msgstr "Da completare"
+
+msgid ""
+"To complete: the address is missing. Add the street to finish your entry."
+msgstr ""
+"Da completare: manca l'indirizzo. Aggiungi la via per completare la tua "
+"scheda."
+
+msgid "same ID"
+msgstr "stesso ID"
+
+msgid "same tax code"
+msgstr "stesso codice fiscale"
+
+msgid "Link entities to Solidaros"
+msgstr "Collega i soggetti a Solidaros"
+
+msgid "%d entities linked."
+msgstr "%d soggetti collegati."
+
+msgid ""
+"Solidaros gives each entity a unique code. Here the entries that match an "
+"entity of Solidaros with certainty (same ID or same tax code) and do not "
+"have its code yet. Entities without a sure match are left out: they get the "
+"code when they register."
+msgstr ""
+"Solidaros assegna a ogni soggetto un codice unico. Qui le schede che "
+"corrispondono con certezza a un soggetto di Solidaros (stesso ID o stesso "
+"codice fiscale) e non hanno ancora il suo codice. I soggetti senza una "
+"corrispondenza sicura restano fuori: ricevono il codice quando si "
+"registrano."
+
+msgid "Nothing to link."
+msgstr "Niente da collegare."
+
+msgid "Solidaros key"
+msgstr "Chiave Solidaros"
+
+msgid "Match"
+msgstr "Corrispondenza"
+
+msgid "Link selected"
+msgstr "Collega i selezionati"
+
+msgid ""
+"Selected entities adhere to this one. Hold Ctrl or Cmd to select several; "
+"deselect to remove."
+msgstr ""
+"I soggetti selezionati aderiscono a questo. Tieni premuto Ctrl o Cmd per "
+"selezionarne più di uno; deseleziona per rimuovere."
+
+msgid "Location (from the list of Italian municipalities)"
+msgstr "Località (dall'elenco dei comuni italiani)"
+
+msgid "Loading regions and provinces from GitHub…"
+msgstr "Caricamento di regioni e province da GitHub…"
+
+msgid "The page continues by itself; do not close it."
+msgstr "La pagina prosegue da sola: non chiuderla."
+
+msgid "Continue now"
+msgstr "Continua ora"
+
+msgid "Other settings"
+msgstr "Altre impostazioni"
+
+msgid "Site profiles"
+msgstr "Profili del sito"
+
+msgid ""
+"Initial setup: tick the profiles to use, choose the site options and press "
+"Generate. Catalogue types, fields, search filters, categories, tags, "
+"territory page and menu are created and Directorist is configured."
+msgstr ""
+"Impostazione iniziale: spunta i profili da usare, scegli le opzioni del sito"
+" e premi Genera. Vengono creati tipi di catalogo, campi, filtri di ricerca, "
+"categorie, tag, pagina dei territori e menu, e Directorist viene "
+"configurato."
+
+msgid "Create a \"Catalogue\" menu with the main pages"
+msgstr "Crea un menu «Catalogo» con le pagine principali"
+
+msgid "Regenerate missing types"
+msgstr "Rigenera i tipi mancanti"
+
+msgid "Restore defaults"
+msgstr "Ripristina i valori predefiniti"
+
+msgid ""
+"This overwrites the fields and layouts of the selected catalogue types, "
+"including changes you made in the Directory Builder. Continue?"
+msgstr ""
+"Questo sovrascrive campi e layout dei tipi di catalogo selezionati, comprese"
+" le modifiche fatte nel Directory Builder. Continuare?"
+
+msgid ""
+"Generate: creates the selected profiles not generated yet. Regenerate "
+"missing types: creates only the types that do not exist yet, the others are "
+"left untouched. Restore defaults: overwrites the selected types with the "
+"profile defaults. Fields and layouts can be changed in Directory Builder "
+"(Directory → Directory Types)."
+msgstr ""
+"Genera: crea i profili selezionati non ancora generati. Rigenera i tipi "
+"mancanti: crea solo i tipi che non esistono ancora, gli altri non vengono "
+"toccati. Ripristina i valori predefiniti: sovrascrive i tipi selezionati con"
+" i valori del profilo. Campi e layout si modificano nel Directory Builder "
+"(Directory → Tipi di directory)."
+
+msgid "Remove uploaded copy: %s"
+msgstr "Rimuovi la copia caricata: %s"
+
+msgid "Entry relations"
+msgstr "Relazioni tra le schede"
+
+msgid "Profiles import (JSON)"
+msgstr "Importazione profili (JSON)"
+
+msgid "Profiles export (JSON)"
+msgstr "Esportazione profili (JSON)"
+
+msgid ""
+"Download the profile file (profile.json) as it is used by the site: edit it "
+"and upload it again in Import."
+msgstr ""
+"Scarica il file del profilo (profile.json) così come lo usa il sito: "
+"modificalo e ricaricalo in Importazione."
+
+msgid "Entries assigned to their users: %d."
+msgstr "Schede assegnate ai rispettivi utenti: %d."
+
+msgid "Skipped (staff accounts): %d."
+msgstr "Saltati (account dello staff): %d."
+
+msgid ""
+"\"Create users\" makes the user (name and e-mail of the entry, no role) and "
+"gives him the entries with that e-mail, without writing to anyone. \"Send "
+"the invitation\" does the same if needed and then sends the e-mail, which "
+"holds a sign-in link (valid one hour, once): only whoever reads that mailbox"
+" can enter. Staff accounts are skipped."
+msgstr ""
+"«Crea utenti» crea l'utente (nome ed email della scheda, nessun ruolo) e gli"
+" assegna le schede con quell'email, senza scrivere a nessuno. «Invia "
+"l'invito» fa lo stesso, se serve, e poi invia l'email con un link di accesso"
+" (valido un'ora, una sola volta): entra solo chi legge quella casella. Gli "
+"account dello staff vengono saltati."
+
+msgid "To assign or update"
+msgstr "Da assegnare o aggiornare"
+
+msgid "Create users and assign the selected entries"
+msgstr "Crea gli utenti e assegna le schede selezionate"
+
+msgid ""
+"Loaded now: %1$d entries, %2$d users. 5 producers, 2 GAS, 1 network, 3 "
+"producer users, 2 reviewers (with the Solidaros reviewer role)."
+msgstr ""
+"Caricati ora: %1$d schede, %2$d utenti. 5 produttori, 2 GAS, 1 rete, 3 "
+"utenti produttore, 2 valutatori (con il ruolo di valutatore di Solidaros)."
+
+msgid "Subject area (self-certification)"
+msgstr "Area del soggetto (Autocertificazione)"
+
+msgid "Evaluators area"
+msgstr "Area valutatori"
+
+msgid "Evaluation wizard (reviewer path)"
+msgstr "Guida alla valutazione (percorso del valutatore)"
+
+msgid "Guided self-certification (wizard)"
+msgstr "Autocertificazione guidata (guida passo passo)"
+
+msgid "Registration complete. Next step: choose your categories."
+msgstr "Registrazione completata. Prossimo passo: scegli le categorie."
+
+msgid "My self-certification"
+msgstr "La mia Autocertificazione"
+
+msgid "Subject area"
+msgstr "Area del soggetto"
+
+msgid ""
+"Your self-certification: the guided wizard and the list of your "
+"questionnaires."
+msgstr ""
+"La tua Autocertificazione: la guida passo passo e l'elenco dei tuoi "
+"questionari."
+
+msgid ""
+"Administrators: the subject area page is not set (Settings → System pages), "
+"so the button is hidden."
+msgstr ""
+"Amministratori: la pagina dell'area del soggetto non è impostata "
+"(Impostazioni → Pagine di sistema), quindi il pulsante è nascosto."
+
+msgid ""
+"Social report, entity and product profiles. It works at once; an "
+"administrator confirms it afterwards."
+msgstr ""
+"Bilancio sociale, scheda azienda e schede prodotto. Funziona subito; "
+"l'amministratore lo conferma in seguito."
+
+msgid "My evaluations"
+msgstr "Le mie valutazioni"
+
+msgid ""
+"The evaluation wizard, your assigned reviews and the evaluation process."
+msgstr ""
+"La guida alla valutazione, le valutazioni assegnate a te e il processo di "
+"valutazione."
+
+msgid ""
+"Administrators: the evaluators area page is not set (Settings → System "
+"pages), so the button is hidden."
+msgstr ""
+"Amministratori: la pagina dell'area valutatori non è impostata (Impostazioni"
+" → Pagine di sistema), quindi il pulsante è nascosto."
+
+msgid ""
+"Verify the places and products questionnaires of other entities. It works at"
+" once; an administrator confirms it afterwards."
+msgstr ""
+"Verifica i questionari su luoghi e prodotti di altri soggetti. Funziona "
+"subito; l'amministratore lo conferma in seguito."
+
+msgid "Second phone"
+msgstr "Secondo telefono"
+
+msgid "Second e-mail"
+msgstr "Seconda email"
+
+msgid ""
+"Done: you can start now. An administrator will confirm it; you will receive "
+"an e-mail."
+msgstr ""
+"Fatto: puoi iniziare subito. L'amministratore lo confermerà e riceverai "
+"un'email."
+
+msgid "Last step: choose your categories."
+msgstr "Ultimo passo: scegli le categorie."
+
+msgid "Skip and go to your space"
+msgstr "Salta e vai al tuo spazio"
+
+msgid "Which type of user are you?"
+msgstr "Che tipo di utente sei?"
+
+msgid ""
+"Registration and sign-in are reserved to producers, distributors, GAS, "
+"networks and PGS reviewers. Enter your e-mail: we will send you a code to "
+"register or sign in."
+msgstr ""
+"La registrazione e l'accesso sono riservati a produttori, distributori, GAS,"
+" reti e valutatori PGS. Inserisci la tua email: ti invieremo un codice per "
+"registrarti o accedere."
+
+msgid "[%s] Your access code"
+msgstr "[%s] Il tuo codice di accesso"
+
+msgid "Done: you can start now. An administrator will confirm it."
+msgstr "Fatto: puoi iniziare subito. L'amministratore lo confermerà."
+
+msgid "Your assigned reviews and PGS evaluations are in the evaluators area."
+msgstr ""
+"Le valutazioni assegnate a te e le valutazioni PGS sono nell'area "
+"valutatori."
+
+msgid "Roles to confirm"
+msgstr "Ruoli da confermare"
+
+msgid ""
+"Producer and reviewer roles work at once; an administrator confirms or "
+"cancels them in Solidaros (a cancelled role is revoked and the user is "
+"told)."
+msgstr ""
+"I ruoli di produttore e di valutatore funzionano subito; l'amministratore li"
+" conferma o li annulla in Solidaros (un ruolo annullato viene revocato e "
+"l'utente ne è informato)."
+
+msgid "Evaluation systems"
+msgstr "Sistemi di valutazione"
+
+msgid "PGS and social balance of the entity, from Solidaros."
+msgstr "PGS e bilancio sociale del soggetto, da Solidaros."
+
+msgid ""
+"%s: already generated (use \"Regenerate missing types\" or \"Restore "
+"defaults\")."
+msgstr ""
+"%s: già generato (usa «Rigenera i tipi mancanti» o «Ripristina i valori "
+"predefiniti»)."
+
+msgid "Catalogue"
+msgstr "Catalogo"
+
+msgid "Menu \"Catalogue\" already exists; left unchanged."
+msgstr "Il menu «Catalogo» esiste già; lasciato invariato."
+
+msgid "Menu \"Catalogue\" created and assigned to location \"%s\"."
+msgstr "Menu «Catalogo» creato e assegnato alla posizione «%s»."
+
+msgid ""
+"Menu \"Catalogue\" created (all theme locations were already in use; assign "
+"it in Appearance → Menus)."
+msgstr ""
+"Menu «Catalogo» creato (tutte le posizioni del tema erano già occupate; "
+"assegnalo in Aspetto → Menu)."
+
+msgid "Map of the relations"
+msgstr "Mappa delle relazioni"
+
+msgid "Contact person"
+msgstr "Referente"
+
+msgid "Manage the categories in Directorist"
+msgstr "Gestisci le categorie in Directorist"
+
+msgid "Questionnaire rules of the categories"
+msgstr "Regole dei questionari per categoria"
+
+msgid "Available product types:"
+msgstr "Tipi di prodotto disponibili:"
+
+msgid "Company entry"
+msgstr "Scheda azienda"
+
+msgid "Product entries"
+msgstr "Schede prodotto"
+
+msgid "Save rules"
+msgstr "Salva le regole"
+
+msgid ""
+"Solidaros: price list import of the producer (CSV or by hand). It is a step "
+"of the guided path ([so-wizard]); a page of its own is needed only for use "
+"outside it."
+msgstr ""
+"Solidaros: importazione del listino prezzi del produttore (CSV o a mano). È "
+"un passo del percorso guidato ([so-wizard]); serve una pagina propria solo "
+"per usarlo fuori dal percorso."
+
+msgid "Classification"
+msgstr "Classificazione"
+
+msgid "Configuration"
+msgstr "Configurazione"
+
+msgid "New profile"
+msgstr "Creazione nuovo profilo"
+
+msgid "Delete a profile"
+msgstr "Eliminazione profilo"
+
+msgid "Profile deleted: %s."
+msgstr "Profilo eliminato: %s."
+
+msgid ""
+"The profile is removed from the list. Catalogue types already generated are "
+"not deleted."
+msgstr ""
+"Il profilo viene tolto dall'elenco. I tipi di catalogo già generati non "
+"vengono eliminati."
+
+msgid ""
+"Delete this profile? Catalogue types already generated are not deleted."
+msgstr ""
+"Eliminare questo profilo? I tipi di catalogo già generati non vengono "
+"eliminati."
+
+msgid ""
+"Tick the profiles to use, choose the site options and press Generate. "
+"Catalogue types, fields, search filters, categories, tags, territory page "
+"and menu are created and Directorist is configured."
+msgstr ""
+"Seleziona i profili da usare, scegli le opzioni del sito e premi Genera. "
+"Vengono creati tipi di catalogo, campi, filtri di ricerca, categorie, tag, "
+"pagina dei territori e menu, e Directorist viene configurato."
+
+msgid "Add a profile, or replace an existing one, by uploading its JSON file."
+msgstr ""
+"Aggiungi un profilo, o sostituiscine uno esistente, caricando il suo file "
+"JSON."
+
+msgid ""
+"Here you decide, for each category, which questionnaires the entities of "
+"that category fill in. Tick \"Company entry\" if they have to fill in the "
+"company questionnaire (Scheda azienda, for farms and producers), and tick "
+"the product types they can describe with product questionnaires (Schede "
+"prodotto, with the source price). The social report is always available. A "
+"category with nothing ticked gets no company or product questionnaire."
+msgstr ""
+"Qui decidi, per ogni categoria, quali questionari compilano i soggetti di "
+"quella categoria. Spunta «Scheda azienda» se devono compilare il "
+"questionario dell'azienda (aziende agricole e produttori) e i tipi di "
+"prodotto che possono descrivere con le Schede prodotto (con il Prezzo "
+"sorgente). Il Bilancio sociale è sempre disponibile. Una categoria senza "
+"spunte non ha né Scheda azienda né Schede prodotto."
+
+msgid ""
+"Solidaros: the FAQ, each on its own white band with accordion question, in "
+"the site font: For everyone, For producers, For distributors, For GAS, For "
+"networks, For reviewers. Managed in SolidarOS > FAQ; the administrators "
+"group is never shown on the site."
+msgstr ""
+"Solidaros: le FAQ, ognuna su una fascia bianca con la domanda a fisarmonica,"
+" nel font del sito: Per tutti, Per i produttori, Per i distributori, Per i "
+"GAS, Per le Reti, Per i valutatori. Si gestiscono in SolidarOS > FAQ; il "
+"gruppo amministratori non è mai mostrato sul sito."
+
+msgid ""
+"group: all, producers, distributors, gas, networks, reviewers (several "
+"separated by commas; empty = all the groups). Keys: tutti, produttori, "
+"distributori, gas, reti, valutatori"
+msgstr ""
+"group: tutti, produttori, distributori, gas, reti, valutatori (più gruppi "
+"separati da virgola; vuoto = tutti i gruppi)"
+
+msgid ""
+"Solidaros: the API page of the Bacheca: producers choose who can read their "
+"data; GAS, emporiums and shops create keys and ask producers for access. "
+"Assign it in System pages."
+msgstr ""
+"Solidaros: la pagina API della Bacheca: i produttori scelgono chi può "
+"leggere i loro dati; GAS, empori e negozi creano le chiavi e chiedono "
+"l'accesso ai produttori. Si assegna in Pagine di sistema."
+
+msgid ""
+"Automatic link between producers and the shops of GAS, emporiums and shops: "
+"keys, consents and requests."
+msgstr ""
+"Collegamento automatico tra i produttori e gli shop di GAS, empori e negozi:"
+" chiavi, consensi e richieste."
+
+msgid "The producer type does not exist: run the configuration first."
+msgstr "Il tipo produttore non esiste: esegui prima la configurazione."
+
+msgid "The demo user could not be created."
+msgstr "Non è stato possibile creare l’utente di prova."
+
+msgid "The demo entry could not be created."
+msgstr "Non è stato possibile creare la scheda di prova."
+
+msgid "Demo data loaded: the user \"prova-produttore\" with a complete entry."
+msgstr ""
+"Dati di prova caricati: l’utente «prova-produttore» con una scheda completa."
+
+msgid "Login (shown once, write it down):"
+msgstr "Accesso (mostrato una sola volta, annotalo):"
+
+msgid ""
+"Loaded now: %1$d entries, %2$d users. Loading replaces any previous demo "
+"data with one user, \\\"prova-produttore\\\", with a complete entry and, if "
+"Autocertificazione is active, all its questionnaires."
+msgstr ""
+"Caricati ora: %1$d schede, %2$d utenti. Il caricamento sostituisce i dati di"
+" prova precedenti con un solo utente, «prova-produttore», con una scheda "
+"completa e, se Autocertificazione è attiva, i relativi questionari "
+"compilati."
+
+msgid "Dashboard (Bacheca)"
+msgstr "Bacheca"
+
+msgid "The data given at registration."
+msgstr "I dati forniti alla registrazione."
+
+msgid "The public list of the self-certifications, with the code to read it."
+msgstr ""
+"L’elenco pubblico delle autocertificazioni, con il codice per leggerlo."
+
+msgid ""
+"Public list of the self-certifications of the entities, with the link to "
+"each PDF."
+msgstr ""
+"Elenco pubblico delle autocertificazioni dei soggetti, con il link a ogni "
+"PDF."
+
+msgid ""
+"Solidaros: the API page of the Bacheca: the public list of "
+"Autocertificazioni with the code to read it"
+msgstr ""
+"Solidaros: la pagina API della Bacheca: l’elenco pubblico delle "
+"autocertificazioni con il codice per leggerlo"
+
+msgid "Catalogo"
+msgstr "Catalogo"
+
+msgid ""
+"Your entity is already in the catalogue? Search it by name or tax code and "
+"ask for the assignment: an administrator checks the request."
+msgstr ""
+"Il tuo soggetto è già nel catalogo? Cercalo per nome o codice fiscale e "
+"chiedi l’assegnazione: l’amministratore controlla la richiesta."
+
+msgid "Search and request"
+msgstr "Cerca e richiedi"

@@ -1,0 +1,1324 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Directorist Network 0.9.0\n"
+"Language: it_IT\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: directorist-network\n"
+
+#: includes/Categories.php:0
+msgid "\"%s\" added."
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "\"%s\" already exists here or could not be added."
+msgstr ""
+
+#: includes/Generator.php:0
+msgid "%1$d new %2$s created."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "%1$d of %2$d rows processed. Do not close this page."
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "%1$s has your entity in its directory (%2$s)."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "%d entities have no coordinates and are not on the map."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "%d entity has no coordinates and is not on the map."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "%d left untouched because edited by their owner."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "%d relations resolved."
+msgstr ""
+
+#: includes/Territories.php:0
+msgid "%d territories (Italy and regions) created from territories.json."
+msgstr ""
+
+#: includes/Generator.php:0
+msgid ""
+"%s: a directory type with this name already exists and was not created by "
+"this plugin; rename or delete it, then retry."
+msgstr ""
+
+#: includes/Generator.php:0
+msgid ""
+"%s: already exists, left untouched (your changes in the Directory Builder "
+"are kept)."
+msgstr ""
+
+#: includes/Generator.php:0
+msgid "%s: could not read Directorist's sample files."
+msgstr ""
+
+#: includes/Generator.php:0
+msgid "%s: directory type saved."
+msgstr ""
+
+#: includes/Demo.php:0
+msgid ""
+"10 fictitious entities in different regions, with categories, map pins, "
+"social reports, profiles, an entry waiting for approval and one edited by "
+"its owner. If Solidaros is active it receives test questionnaires too. "
+"Delete them all in one click when you are done."
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Add a category"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Add category"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"Add or remove fields, and change the card and single-page layout, in "
+"Directory Builder (Directory → Directory Types). Your changes are kept; the "
+"CSV import picks up custom fields you add."
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Add subcategory"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "All"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "All categories"
+msgstr ""
+
+#: includes/Territory.php:0
+msgid "All territories"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "All types"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Also overwrite entities already edited by their owner"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "An import is in progress."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Ascending: click for descending"
+msgstr ""
+
+#: includes/Territory.php:0
+msgid "By category"
+msgstr ""
+
+#: includes/Territory.php:0
+msgid "By type"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "CSV file"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "CSV template: %s"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Card view"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Cards"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Categories"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Categories and subcategories"
+msgstr ""
+
+#: includes/Generator.php:0
+msgid "Categories come from your saved list (Network categories)."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"Categories with entity and product profiles (slugs, comma separated; empty ="
+" all entities)"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Category"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Category deleted."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"Choose what the site is about and press the button: directory types, fields,"
+" filters, categories, territory page and menu are created and Directorist is"
+" configured."
+msgstr ""
+
+#: includes/Register.php:0
+msgid ""
+"Choose what you want to register. Your entry will appear in the directory "
+"after it has been reviewed."
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "Choose your password with this link to check and update your data:"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "City"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid ""
+"Columns: category, subcategory (the subcategory may be empty). Existing "
+"names are kept; only the missing ones are added. Header names in Italian "
+"(categoria, sottocategoria) work too."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"Comma or semicolon separated, UTF-8. Header names: the field keys, or the "
+"field labels in English or in the site language. Categories and locations: "
+"separate several with \";\" and write a hierarchy as \"Parent > Child\". The"
+" file is deleted when the import ends."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Consent links (registration form)"
+msgstr ""
+
+#: includes/Register.php:0
+msgid "Continue"
+msgstr ""
+
+#: includes/DirectoryBuilder.php:0
+msgid "Cookie Policy"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Cookie Policy URL"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Copied"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Copy"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Could not delete the category."
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "Could not link the entry. Contact the site administrator."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Create a \"Directory\" menu with the main pages"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Create missing categories, locations and tags"
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "Default directory type set."
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Delete"
+msgstr ""
+
+#: includes/Demo.php:0
+msgid "Delete all demo data?"
+msgstr ""
+
+#: includes/Demo.php:0
+msgid "Delete demo data"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Delete the starter \"General\" directory type (only if it has no listings)"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Delete this category?"
+msgstr ""
+
+#: includes/Demo.php:0
+msgid "Demo data"
+msgstr ""
+
+#: includes/Demo.php:0
+msgid "Demo data deleted: %d entities."
+msgstr ""
+
+#: includes/Demo.php:0
+msgid "Demo data loaded: %d entities."
+msgstr ""
+
+#: includes/Demo.php:0
+msgid "Demo entities present: %d"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Descending: click for ascending"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Describe here what the network is, who promotes it and who it is for."
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Describe the commitment to complete the entity profile."
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Describe the commitment to complete the product profile."
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Describe the commitment to complete the social report."
+msgstr ""
+
+#: includes/Demo.php:0
+msgid ""
+"Directorist (with the Directory Builder) is not active. Activate it first."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Directorist Network"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Directorist Network — profiles"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Directorist Network — quick setup"
+msgstr ""
+
+#: includes/Generator.php:0
+msgid "Directorist is not active or is too old."
+msgstr ""
+
+#: includes/Register.php:0
+msgid "Directorist settings API not found."
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "Directory"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Directory type"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "District"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Download current list (CSV)"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Download images from the image column (URLs)"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Draft"
+msgstr ""
+
+#: includes/Owners.php:0
+msgid ""
+"Enter the e-mail of the entity: we send a link to it to take over the entry "
+"and update it."
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Entities"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Entities found: %d"
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "Entities page ready (shortcode [dirnet_entities])."
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "Entity e-mail"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Entity profile"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid ""
+"Every change is also saved to %s, and that list is the one used when you "
+"generate a profile."
+msgstr ""
+
+#: includes/Pages.php:0
+msgid ""
+"Explain how to find entities, how to join and what the membership commits "
+"to."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Export"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Filter"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"Find coordinates for rows without them (OpenStreetMap Nominatim, about 1 row"
+" per second)"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Generate"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"Generate a profile first (Site profile), then import its data here."
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Here the entity fills in or edits its social report."
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "Home"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "How it works"
+msgstr ""
+
+#: includes/Membership.php:0
+msgid "I accept the %1$s and request to join %2$s"
+msgstr ""
+
+#: includes/DirectoryBuilder.php:0
+msgid "I accept the %1$s, the %2$s and the %3$s"
+msgstr ""
+
+#: includes/Register.php:0
+msgid "I want to register a…"
+msgstr ""
+
+#: includes/Owners.php:0
+msgid ""
+"If this e-mail is in the directory, we have sent a confirmation link to it."
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "If you did not ask for it, ignore this message."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Ignored columns: %s"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Import"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Import CSV"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Import and export (CSV)"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Import categories"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid ""
+"Import done: %1$d rows read, %2$d new categories or subcategories created."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Import finished: %1$d created, %2$d updated, %3$d errors."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Importing…"
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "Invitations sent: %1$d. Not sent: %2$d."
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "Invited"
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "Is your entity already in the list?"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "JSON: %s"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Legal form"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"Let entities register themselves from the website (entries are held for your"
+" approval)"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "List"
+msgstr ""
+
+#: includes/Geo.php:0
+msgid "List of regions, provinces and municipalities downloaded (%d regions)."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "List view"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Listing status"
+msgstr ""
+
+#: includes/Demo.php:0
+msgid "Load demo data"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Log in to fill in or edit your social report."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Map"
+msgstr ""
+
+#: includes/CategoryIcons.php:0
+msgid "Map icon set on %d categories (change it in Directorist > Categories)."
+msgstr ""
+
+#: includes/CategoryIcons.php:0
+msgid "Map pin colour"
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "Map provider set to OpenStreetMap (no API key needed)."
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Membership"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Membership conditions"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Membership conditions page URL"
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "Menu \"Directory\" already exists; left unchanged."
+msgstr ""
+
+#: includes/Setup.php:0
+msgid ""
+"Menu \"Directory\" created (all theme locations were already in use; assign "
+"it in Appearance → Menus)."
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "Menu \"Directory\" created and assigned to location \"%s\"."
+msgstr ""
+
+#: includes/Geo.php:0
+msgid "Municipality"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Name"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Network categories"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Network import"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Network import (CSV)"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Network name in the membership sentence (empty = site name)"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Site profile"
+msgstr ""
+
+#: includes/Relations.php:0
+msgid "Network relations"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Network setup"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "New subcategory of \"%s\""
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Next"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "No"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "No categories yet."
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "No categories yet. Add one above or import a CSV below."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "No entities match these filters."
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "No file received."
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "No pages found for the menu."
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "No starter \"General\" directory type found."
+msgstr ""
+
+#: includes/Territory.php:0
+msgid "No territories yet. Import listings with a location first."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "No title column found."
+msgstr ""
+
+#: includes/Relations.php:0
+msgid "Not found yet: %s"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Nothing to download."
+msgstr ""
+
+#: includes/Owners.php:0
+msgid ""
+"Open this link to take over your entry in the directory and choose your "
+"password:"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Options"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Pages created: %s. Their texts are drafts for you to complete."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"Pages linked in the consent boxes of the forms. Leave a field empty to show "
+"the name without a link. Applies to directory types created or reset after "
+"you save."
+msgstr ""
+
+#: includes/Demo.php:0
+msgid "Permission denied."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"Pick a profile and press Generate: the directory types, fields, search "
+"filters, categories and tags are created in Directorist."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Previous"
+msgstr ""
+
+#: includes/DirectoryBuilder.php:0
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Privacy Policy URL (empty = the WordPress privacy page)"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Product profile"
+msgstr ""
+
+#: includes/Sheets.php:0
+msgid "Product profile (%d)"
+msgstr ""
+
+#: includes/Sheets.php:0
+msgid "Product profile: %s"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Profiles"
+msgstr ""
+
+#: includes/Geo.php:0
+msgid "Province"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Published"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Quick setup"
+msgstr ""
+
+#: includes/Geo.php:0
+msgid "Region"
+msgstr ""
+
+#: includes/Register.php:0
+msgid "Register your entity"
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "Registration page ready (shortcode [dirnet_register])."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"Relation columns in a CSV list the key (or title) of the related listings. "
+"Those not found at import time stay pending; run this after importing the "
+"other types."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Relation not resolved: %s"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Relations"
+msgstr ""
+
+#: includes/Relations.php:0
+msgid "Relations are available for listings created from a network profile."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Reset"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Reset to profile defaults"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Resolve pending relations"
+msgstr ""
+
+#: includes/Importer.php:0
+msgid "Row %1$d: %2$s"
+msgstr ""
+
+#: includes/Demo.php:0
+msgid "Run the quick setup with at least one profile first."
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Save"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Saved: \"%s\"."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Search"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Search by name…"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Secondary legal form"
+msgstr ""
+
+#: includes/Register.php:0
+msgid ""
+"Self-registration enabled: new and edited entries wait for your approval and"
+" you get an email for each submission."
+msgstr ""
+
+#: includes/DirectoryBuilder.php:0
+msgid "Send a message"
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "Send access invitation"
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "Send invitation"
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "Send invitation again"
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "Send link"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Set up my site"
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "Setup finished. Next: import your data from Network import."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Show"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Sign in"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Sign out"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Site"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Social Report"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "Social report"
+msgstr ""
+
+#: includes/SocialReport.php:0
+msgid "Social report available"
+msgstr ""
+
+#: includes/SocialReport.php:0
+msgid "Social report not available"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"Social report page: shortcode provided by Solidaros (e.g. "
+"[solidaros_producers])"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Social report: any"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Sort by"
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "Starter \"General\" directory type deleted."
+msgstr ""
+
+#: includes/Territory.php:0
+msgid "Subcategories"
+msgstr ""
+
+#: includes/DirectoryBuilder.php:0
+msgid "Terms and Conditions"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Terms and Conditions URL"
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "Territories"
+msgstr ""
+
+#: includes/Territory.php:0
+msgid "Territory"
+msgstr ""
+
+#: includes/Generator.php:0
+msgid "Territory page ready (shortcode [dirnet_territory])."
+msgstr ""
+
+#: includes/Setup.php:0
+msgid ""
+"The \"General\" type contains listings, so it was NOT deleted. Move or "
+"delete them, then run the setup again."
+msgstr ""
+
+#: includes/Setup.php:0
+msgid "The \"General\" type was left in place because it is the default."
+msgstr ""
+
+#: includes/Categories.php:0
+msgid ""
+"The category file could not be written (check that the uploads folder is "
+"writable)."
+msgstr ""
+
+#: includes/Geo.php:0
+msgid "The downloaded list of municipalities is not in the expected format."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "The file has no data rows."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "The file is too large (10 MB max)."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "The first profile you tick provides the default directory type."
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "The link stays valid for a few days."
+msgstr ""
+
+#: includes/Categories.php:0
+msgid ""
+"The list is yours to change at any time: add, rename or delete categories "
+"and subcategories. Deleting a category does not delete its entities; they "
+"just lose that category."
+msgstr ""
+
+#: includes/Geo.php:0
+msgid ""
+"The list of Italian municipalities could not be downloaded; the form falls "
+"back to the region only. It will retry on the next monthly run or the next "
+"setup."
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "The social report form is not connected yet."
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "This category has subcategories: delete them first."
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "This link is not valid or has expired. Ask for a new one."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid ""
+"This overwrites the fields and layouts of these directory types, including "
+"changes you made in the Directory Builder. Continue?"
+msgstr ""
+
+#: includes/Relations.php:0
+msgid ""
+"This type has no outgoing relations. Incoming ones are shown on the listing "
+"page."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Tick at least one profile."
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "To invite"
+msgstr ""
+
+#: includes/Categories.php:0
+msgid "Tree"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Unknown directory type."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Unknown profile."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Upload a .csv file."
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "Use OpenStreetMap (no API key)"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "View on map"
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Website"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "What it is"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "What the entity profile is, how it is filled in and how to read it."
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "What the product profile is, how it is filled in and how to read it."
+msgstr ""
+
+#: includes/Pages.php:0
+msgid ""
+"Write here the conditions to join. This page is linked from the registration"
+" form."
+msgstr ""
+
+#: includes/Entities.php:0
+msgid "Yes"
+msgstr ""
+
+#: includes/Pages.php:0
+msgid "You are signed in."
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "[%s] Access to your entity"
+msgstr ""
+
+#: includes/Owners.php:0
+msgid "[%s] Confirm your entity"
+msgstr ""
+
+#: includes/Admin.php:0
+msgid "generated"
+msgstr ""
+
+#: includes/Membership.php:0
+msgid "membership conditions"
+msgstr ""
+
+#: includes/Importer.php:0
+msgid "missing title."
+msgstr ""
+
+#: includes/Register.php:0
+msgid "— Select —"
+msgstr ""
+
+#: includes/Functions.php
+msgid "Social gardens"
+msgstr ""
+
+#: includes/Functions.php
+msgid "Name of the social garden"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Generate missing types"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Creates only the directory types that do not exist yet; the others are left untouched."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Add or update a profile (JSON)"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Profile file (profile.json)"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Profile ID"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Letters, numbers and dashes. Leave empty to use the \"id\" inside the file. An ID that already exists (also a bundled one) is replaced by the uploaded file."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Translations (optional)"
+msgstr ""
+
+#: includes/Admin.php
+msgid "JSON object: English text => translation, for the current site language."
+msgstr ""
+
+#: includes/Admin.php
+msgid "The profile is saved in wp-content/uploads/directorist-network/profiles/ and survives plugin updates. Then press Generate, or Generate missing types if the profile was already generated."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Upload profile"
+msgstr ""
+
+#: includes/Admin.php
+msgid "uploaded"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Remove uploaded copy"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Remove the uploaded copy of this profile? The bundled profile, if any, is used again. Directory types already generated are not deleted."
+msgstr ""
+
+#: includes/Admin.php
+msgid "No valid file received (JSON, up to 512 KB)."
+msgstr ""
+
+#: includes/Admin.php
+msgid "The file is not a valid profile: it needs a non-empty \"types\" list, each type with a \"label\"."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Choose a profile ID (letters, numbers, dashes)."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Could not write to the uploads folder."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Profile saved: %s."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Translations saved (%s)."
+msgstr ""
+
+#: includes/Admin.php
+msgid "The translations file is not valid JSON; it was ignored."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Uploaded copy removed: %s."
+msgstr ""
+
+#: includes/ShortcodeIndex.php
+msgid "Data"
+msgstr ""
+
+#: includes/ShortcodeIndex.php
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/ShortcodeIndex.php
+msgid "Communications"
+msgstr ""
+
+#: includes/ShortcodeIndex.php
+msgid "Import territories"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Initial setup"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Listing template"
+msgstr ""
+
+#: includes/Sidebar.php
+msgid "Template used by the listing page:"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Profile generation"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Profile creation"
+msgstr ""
+
+#: includes/Community.php
+msgid "All suggested edits"
+msgstr ""
+
+#: includes/Community.php
+msgid "Date"
+msgstr ""
+
+#: includes/Functions.php
+msgid "Distributors"
+msgstr ""
+
+#: includes/Functions.php
+msgid "Name of the distributor"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Change the directory type of entries"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Moves all the entries that have the chosen roles or categories to another directory type (for example from Producers to Distributors). Fields that the new type does not have stay stored but are not shown. Preview first, and back up before applying."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Categories (hold Ctrl or Cmd to choose several)"
+msgstr ""
+
+#: includes/Admin.php
+msgid "New directory type"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Include the subcategories of the chosen categories"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Apply"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Change the directory type of these entries? Back up first."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Choose at least one role or category and the new directory type."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Moved to \"%2$s\": %1$d entries."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Preview: %1$d entries would move to \"%2$s\" (first 30 listed). Nothing was changed."
+msgstr ""
+
+#: includes/Admin.php
+msgid "Roles (hold Ctrl or Cmd to choose several)"
+msgstr ""
+
+#: includes/Admin.php
+msgid "Choose roles, categories or both: the entries that have any of them are moved."
+msgstr ""
+
+#: includes/Admin.php
+msgid "After saving, the fields of the new type are shown. Fields that the new type does not have stay stored but hidden. Roles and categories do not change."
+msgstr ""
+
+#: includes/Functions.php
+msgid "Distribution"
+msgstr ""
+
+msgid "Adherents"
+msgstr ""
+
+msgid "No adherents yet."
+msgstr ""
+
+msgid "Campaign"
+msgstr ""
+
+msgid "Join the campaign"
+msgstr ""
+
+msgid "FormGent form to join a campaign (campaign sheets only)."
+msgstr ""
+
+msgid "FormGent form shortcode:"
+msgstr ""
+
+msgid "Paste the shortcode copied from FormGent. You can use {campaign_id}, {campaign_title} and {campaign_url} in it."
+msgstr ""
+
+msgid "Do not change entities already present: only add the relations (e.g. the campaign)"
+msgstr ""
+
+msgid "Adherents: none found for entry %1$d (links stored: %2$d). Only visible to admins."
+msgstr ""
+
+msgid "Campaign adherents"
+msgstr ""
+
+msgid "Adherents of the campaign as list, cards or map (campaign sheets only)."
+msgstr ""
+
+msgid "No settings: shows the adherents of the campaign being viewed."
+msgstr ""
+
+msgid "Active campaigns"
+msgstr ""
+
+msgid "Expired campaigns"
+msgstr ""
+
+msgid "%d adherents are not published: only you see them. Publish them to show them to everyone."
+msgstr ""
+
+msgid "Adherents map"
+msgstr ""
